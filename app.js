@@ -170,6 +170,8 @@ function resizeRecordPanel() {
 let monthPickerActive = false;
 let pickerPointerX = null;
 let leftwardExpanded = false;
+let enteredLeftInfo = false;
+let closeMonthPickerOnExit = null;
 function setRecordsExpanded(expanded) {
     if (!currentVenue || recordsExpanded === expanded) return;
     recordsExpanded = expanded;
@@ -197,7 +199,28 @@ if (venueTile && recordList && recordsHeading && rightGrid) {
         if (pickerPointerX === null) pickerPointerX = event.clientX;
         if (event.clientX < rect.left - 4 && event.clientX < pickerPointerX - 4) {
             leftwardExpanded = true;
+            enteredLeftInfo = false;
             setRecordsExpanded(true);
+        }
+    });
+    // 已從月份選單往左展開後，滑鼠離開整個資訊面板時，同時收起兩邊。
+    document.addEventListener('pointermove', event => {
+        if (!monthPickerActive || !leftwardExpanded || !currentVenue) return;
+        const within = element => {
+            if (!element) return false;
+            const r = element.getBoundingClientRect();
+            return event.clientX >= r.left && event.clientX <= r.right &&
+                   event.clientY >= r.top && event.clientY <= r.bottom;
+        };
+        const picker = document.querySelector('.month-picker');
+        if (within(picker)) return;
+        // 左滑時不必碰到紀錄文字就展開；但必須真正進入過左側資訊區，
+        // 才在離開資訊區時一起關閉，避免剛從選單左滑就立即收回。
+        const inInfo = within(venueTile) || within(recordList);
+        if (inInfo) enteredLeftInfo = true;
+        else if (enteredLeftInfo) {
+            closeMonthPickerOnExit?.();
+            setRecordsExpanded(false);
         }
     });
     window.addEventListener('resize', resizeRecordPanel);
@@ -232,6 +255,7 @@ function setupMonthPreview() {
     monthPickerActive = false;
     pickerPointerX = null;
     leftwardExpanded = false;
+    enteredLeftInfo = false;
     picker.classList.remove('open');
     trigger.setAttribute('aria-expanded', 'false');
     if (previewMonth !== null) {
@@ -240,6 +264,7 @@ function setupMonthPreview() {
       renderCalendar();
     }
   }
+  closeMonthPickerOnExit = close;
   for (const option of Array.from(select.options)) {
     const item = document.createElement('button');
     item.type = 'button';
@@ -262,6 +287,7 @@ function setupMonthPreview() {
       monthPickerActive = true;
       pickerPointerX = picker.getBoundingClientRect().left + picker.getBoundingClientRect().width / 2;
       leftwardExpanded = false;
+      enteredLeftInfo = false;
     }
     picker.classList.add('open');
     trigger.setAttribute('aria-expanded', 'true');
@@ -272,6 +298,7 @@ function setupMonthPreview() {
     // 從左側回到月份選單：月份選單保留，左側詳細紀錄收合。
     if (monthPickerActive && leftwardExpanded) {
       leftwardExpanded = false;
+      enteredLeftInfo = false;
       setRecordsExpanded(false);
     }
     openPicker();
