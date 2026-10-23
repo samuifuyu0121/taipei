@@ -6,10 +6,13 @@
 <link rel="stylesheet" href="https://api.mapbox.com/mapbox-gl-js/v3.10.0/mapbox-gl.css">
 <script src="https://api.mapbox.com/mapbox-gl-js/v3.10.0/mapbox-gl.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/echarts@5/dist/echarts.min.js"></script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@900&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<header class="topbar"><div><span class="eyebrow">TAIPEI CONCERT VENUE / DASHBOARD</span><h1>台北市演唱會場館借用狀況</h1></div><div class="topnote">3D 城市地圖 · 2026 年 5–9 月小巨蛋空間租用紀錄</div></header>
+<header class="topbar"><div><span class="eyebrow">TAIPEI CONCERT VENUE / DASHBOARD</span><h1>台北市演唱會場館借用狀況</h1></div><div class="topnote">3D 城市地圖 · 2026 年 5–9 月空間租用紀錄</div></header>
 <main class="dashboard">
 <section class="map-panel" aria-label="台北市場館地圖"><div id="map"></div><div class="map-title">場館分布 <span>TAIPEI MAP</span></div><div class="map-actions"><button id="overviewBtn" type="button">◎ 台北市全景</button><button id="arenaBtn" type="button">⌖ 台北小巨蛋</button></div><div class="map-foot">點擊地圖標記查看場館 · 放大至 15 級以上顯示 3D 建築</div></section>
 <section class="right-grid">
@@ -17,8 +20,9 @@
 <section class="tile monthly-tile"><div class="tile-heading"><span class="mini-label">MONTHLY RECORDS</span><h2>每月租用紀錄數</h2></div><div id="monthly" class="chart"></div></section>
 <section class="tile venue-tile"><div class="tile-heading"><span class="mini-label">VENUE INFORMATION</span><h2 id="venueTitle">台北小巨蛋</h2></div><div id="venueInfo" class="venue-info"></div><div class="records-heading"><strong id="recordHeading">租用紀錄</strong><select id="monthFilter" aria-label="月份篩選"><option value="all">全部月份</option></select></div><div id="recordList" class="record-list" aria-live="polite"></div></section>
 <section class="tile types-tile"><div class="tile-heading"><span class="mini-label">SPACE CATEGORY</span><h2>空間租用類型</h2></div><div id="types" class="chart"></div></section>
-<section class="tile stats-tile"><div class="stat"><span>不同活動數</span><strong id="events">—</strong></div><div class="stat"><span>租用紀錄數</span><strong id="total">—</strong></div></section>
+<section class="tile stats-tile"><div class="tile-heading"><span class="mini-label">RECORD SUMMARY</span><h2>租用紀錄統計</h2></div><div id="statsChart" class="chart" role="img" aria-label="不同活動數與租用紀錄數比較"></div></section>
 </section></main>
-<footer>資料來源：使用者提供之臺北小巨蛋 CSV（2026 年 5–9 月）。紀錄為主場館活動使用空間及廣場租用，非整座場館可借用檔期；其他場館尚未匯入租用資料。</footer>
+<footer>資料來源：台北市各場館 CSV（2026 年 5–9 月）。紀錄為主場館活動使用空間及廣場租用，非整座場館可借用檔期；其他場館尚未匯入租用資料。</footer>
 <script src="app.js"></script>
+<script src="taipei_mask.js"></script>
 </body></html>

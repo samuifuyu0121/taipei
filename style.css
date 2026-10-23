@@ -141,7 +141,8 @@ h1 {
 .map-actions button {
     background: var(--yellow);
     color: var(--ink);
-    border: 2px solid var(--ink);
+    border: none;
+    box-shadow: 4px 4px 0 var(--ink);
     padding: 9px 12px;
     font-weight: 800;
 }
@@ -204,10 +205,15 @@ h2 {
     margin: 3px 0;
     font-size: clamp(16px, 1.5vw, 24px);
     line-height: 1.15;
-    color: var(--blue);
-    font-weight: 900;
-}
 
+    /* 保留原本的淺藍色 */
+    color: var(--blue);
+
+    /* 接近華康黑體 W12 的厚實字感 */
+    font-family: "Noto Sans TC", "Microsoft JhengHei", sans-serif;
+    font-weight: 900;
+    font-synthesis: none;
+}
 /* =========================================
    7. 右側 Grid 區塊位置
 ========================================= */
@@ -628,3 +634,404 @@ footer {
     }
 
 }
+
+/* 場館 Hover：斜邊與引導線同為 143°（由右向左量測） */
+.mapboxgl-marker.venue-marker { overflow: visible; }
+.venue-hover-label {
+    position: absolute;
+    left: 65px;
+    top: -38px;
+    background: var(--yellow);
+    color: #237e9c;
+    padding: 8px 40px;
+    /* 左右斜邊：水平 48px、垂直 36px，約為 143° 的斜向 */
+    clip-path: polygon(48px 0, 100% 0, calc(100% - 48px) 100%, 0 100%);
+    font-family: Arial, 'Microsoft JhengHei', 'Noto Sans TC', sans-serif;
+    font-size: 20px;
+    font-weight: 800;
+    line-height: 20px;
+    white-space: nowrap;
+    text-shadow: none;
+    -webkit-font-smoothing: antialiased;
+    pointer-events: none;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.45s ease, visibility 0s linear 0.45s;
+    z-index: 3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.venue-hover-label span {
+    display: block;
+    transform: none;
+}
+/* 連接線角度 -37°，即反方向量測 143°；圓角端點 */
+.mapboxgl-marker.venue-marker::after {
+    content: '';
+    position: absolute;
+    left: 23px;
+    top: 31px;
+    width: 53px;
+    height: 4px;
+    background: #4eb0ce;
+    border-radius: 999px;
+    transform: rotate(-37deg);
+    transform-origin: left center;
+    pointer-events: none;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.45s ease, visibility 0s linear 0.45s;
+}
+.mapboxgl-marker.venue-marker.is-hovered { z-index: 20 !important; }
+.mapboxgl-marker.venue-marker.is-hovered .venue-hover-label,
+.mapboxgl-marker.venue-marker.is-hovered::after {
+    opacity: 1;
+    visibility: visible;
+    transition: opacity 0.45s ease, visibility 0s linear 0s;
+}
+/* 中文場館名稱：接近華康黑體 W12 的厚實效果 */
+.venue-hover-label span[data-chinese="true"] {
+    font-family:
+        "Noto Sans TC",
+        "Microsoft JhengHei",
+        sans-serif;
+
+    font-weight: 900;
+    font-synthesis: none;
+    -webkit-text-stroke: 0;
+}
+/* 尚未開放查詢的月份 */
+
+.calendar.calendar-unavailable {
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+    min-height: 0;
+}
+
+.calendar-unavailable-message {
+    color: var(--blue);
+
+    font-family: "Noto Sans TC", "Microsoft JhengHei", sans-serif;
+    font-weight: 900;
+    font-synthesis: none;
+
+    font-size: 20px;
+    line-height: 1.15;
+    text-align: center;
+}
+/* 日曆底部說明：固定底部並置中 */
+.calendar-tile #calendarHint {
+    margin-top: auto;
+    margin-bottom: 0;
+    width: 100%;
+    text-align: center;
+    flex-shrink: 0;
+}
+/* 租用紀錄：浮在圓餅圖上方，依內容展開並有平滑過渡 */
+.venue-tile {
+    position: relative;
+    overflow: visible;
+    z-index: 1;
+}
+.venue-tile.records-expanded {
+    z-index: 30;
+}
+.venue-tile .record-list {
+    position: absolute;
+    left: 15px;
+    right: 15px;
+    width: auto;
+    flex: none;
+    min-height: 0;
+    max-height: none;
+    height: 85px;
+    margin: 0;
+    overflow-y: auto;
+    background: var(--yellow);
+    z-index: 2;
+    transition: height 0.45s cubic-bezier(.22,.8,.25,1);
+}
+@media (prefers-reduced-motion: reduce) {
+    .venue-tile .record-list { transition: none; }
+}
+
+/* 場館圖釘只保留藍／黃色填色，不要外框線；保留白色中心 */
+.mapboxgl-marker.venue-marker > svg > path:first-child {
+    stroke: none !important;
+    stroke-width: 0 !important;
+}
+
+/* 修正展開面板：遮住原本 Grid 黑線，並取消多餘的底部線條 */
+.venue-tile.records-expanded .record-list {
+    left: 15px;
+    right: 15px;
+    border: 0 !important;
+    outline: 0 !important;
+    box-shadow: none !important;
+}
+.venue-tile.records-expanded .record-list .record:last-child {
+    border-bottom: 0;
+}
+/* Mapbox 預設 Marker 的陰影形狀也移除，不只移除 stroke */
+.mapboxgl-marker.venue-marker > svg { filter: none !important; }
+.mapboxgl-marker.venue-marker > svg > path[opacity] { opacity: 0 !important; }
+.mapboxgl-marker.venue-marker > svg > path { stroke: none !important; }
+
+/* ===== 自訂純色場館圖釘及左右自動避讓標籤 ===== */
+.mapboxgl-marker.venue-marker .venue-pin {
+    display: block;
+    overflow: visible;
+    filter: none !important;
+    stroke: none !important;
+    box-shadow: none !important;
+}
+.mapboxgl-marker.venue-marker .venue-pin path,
+.mapboxgl-marker.venue-marker .venue-pin circle {
+    stroke: none !important;
+    stroke-width: 0 !important;
+    filter: none !important;
+}
+/* 圖釘在右側時，標籤和引導線向左展開 */
+.mapboxgl-marker.venue-marker.venue-label-left .venue-hover-label {
+    left: auto;
+    right: 65px;
+}
+.mapboxgl-marker.venue-marker.venue-label-left::after {
+    left: 7px;
+    top: 31px;
+    transform: rotate(-143deg);
+}
+/* 地圖窄時，避免長場館名稱被硬切成多行 */
+.venue-hover-label { max-width: calc(100vw - 28px); }
+
+/* 合併後的租用統計圖表 */
+.stats-tile {
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    gap: 0;
+    background: var(--yellow);
+}
+.stats-tile .chart { flex: 1; min-height: 140px; height: auto; }
+/* 自訂圖釘：沒有額外邊線、濾鏡或陰影 */
+.mapboxgl-marker.venue-marker,
+.mapboxgl-marker.venue-marker .venue-pin,
+.mapboxgl-marker.venue-marker .venue-pin * {
+    outline: none !important;
+    box-shadow: none !important;
+    filter: none !important;
+    stroke: none !important;
+}
+
+/* 統一右側中文大標：與「租借日曆」相同的 20px 黑體 */
+.right-grid .tile-heading h2 {
+    font-family: "Noto Sans TC", "Microsoft JhengHei", sans-serif;
+    font-size: 20px;
+    font-weight: 900;
+    font-synthesis: none;
+    color: var(--blue);
+}
+
+/* 場館圖釘：純色 CSS，不使用 SVG 描邊或濾鏡 */
+.mapboxgl-marker.venue-marker {
+    width: 30px;
+    height: 44px;
+    background: transparent;
+    border: 0;
+    box-shadow: none;
+}
+.venue-marker .venue-pin-shape {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    left: 0;
+    top: 3px;
+    border-radius: 50% 50% 50% 0;
+    background-color: #27a9d2;
+    transform: rotate(-45deg);
+    border: 0 !important;
+    outline: 0 !important;
+    box-shadow: none !important;
+    filter: none !important;
+}
+.venue-marker .venue-pin-hole {
+    position: absolute;
+    width: 13px;
+    height: 13px;
+    top: 8.5px;
+    left: 8.5px;
+    background: white;
+    border-radius: 50%;
+    border: 0;
+    box-shadow: none;
+}
+
+/* 標題統一對齊左側日曆標題 */
+.right-grid .calendar-tile .tile-heading,
+.right-grid .monthly-tile .tile-heading { margin-bottom: 3px; }
+.right-grid .calendar-tile h2,
+.right-grid .monthly-tile h2 {
+  font-size: 20px; line-height: 1.15; margin: 2px 0;
+  font-family: "Noto Sans TC", "Microsoft JhengHei", sans-serif;
+  font-weight: 900; color: var(--blue);
+}
+.right-grid .monthly-tile .mini-label { font-size: 9px; }
+/* 首次進站場館資訊的提示 */
+.venue-tile.venue-awaiting-selection { position: relative; overflow: hidden; }
+.venue-tile.venue-awaiting-selection .records-heading,
+.venue-tile.venue-awaiting-selection .record-list,
+.venue-tile.venue-awaiting-selection #venueInfo,
+.venue-tile.venue-awaiting-selection #venueTitle { display: none !important; }
+.venue-tile.venue-awaiting-selection::after {
+  content: "請點選場館開始查詢"; position: absolute;
+  inset: 42px 12px 12px; display: flex; align-items: center; justify-content: center;
+  color: var(--blue); font-family: "Noto Sans TC", "Microsoft JhengHei", sans-serif;
+  font-size: clamp(20px, 2vw, 28px); font-weight: 900; text-align: center;
+  pointer-events: none;
+}
+
+/* 初始畫面：每張統計圖表只顯示一個置中的「-」，選取場館後恢復 */
+body.dashboard-awaiting-venue .monthly-tile,
+body.dashboard-awaiting-venue .types-tile,
+body.dashboard-awaiting-venue .stats-tile { position: relative; }
+body.dashboard-awaiting-venue .monthly-tile .chart,
+body.dashboard-awaiting-venue .types-tile .chart,
+body.dashboard-awaiting-venue .stats-tile .chart { visibility: hidden; }
+body.dashboard-awaiting-venue .monthly-tile::after,
+body.dashboard-awaiting-venue .types-tile::after,
+body.dashboard-awaiting-venue .stats-tile::after {
+  content: '-'; position: absolute; left: 0; right: 0; top: 50%;
+  transform: translateY(-50%); text-align: center; pointer-events: none;
+  color: var(--blue); font-family: 'Noto Sans TC', sans-serif;
+  font-size: 20px; font-weight: 900;
+}
+
+/* 初始月曆只顯示一個置中的 -；選取場館後恢復日期 */
+body.dashboard-awaiting-venue .calendar-tile .calendar-toolbar { visibility: hidden; }
+.calendar.calendar-awaiting-selection {
+  display: flex; flex: 1 1 auto; min-height: 0;
+  align-items: center; justify-content: center;
+  color: var(--blue); font-family: "Noto Sans TC", sans-serif;
+  font-weight: 900; font-size: 20px;
+}
+/* 地圖提示：移到場館分布右側 */
+.map-foot {
+    position: absolute;
+    top: 18px;
+    left: 170px;
+    right: auto;
+    bottom: auto;
+
+    background: var(--yellow);
+    color: #4EB0CE;
+    opacity: 1;
+
+    padding: 12px 16px;
+    box-shadow: 4px 4px 0 var(--ink);
+
+    z-index: 3;
+}
+/* 場館分布標題：指定淺藍色 */
+.map-title {
+    color: #4EB0CE;
+}
+
+.map-title span {
+    color: #4EB0CE;
+}
+
+/* 日曆前後月份按鈕：與下方日期格同寬同高，箭頭置中 */
+.calendar-toolbar button {
+  width: calc((100% - 12px) / 7);
+  height: 20px;
+  min-width: 0;
+  padding: 0;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  line-height: 1;
+  font-size: 16px;
+  border: 0;
+  background: #fff9c9;
+  color: var(--ink);
+}
+.calendar-toolbar button:hover { background: var(--blue); color: #fff; }
+@media (max-width: 600px) { .calendar-toolbar button { height: 27px; } }
+
+/* 月份篩選：移入即平滑展開；選單無外框、無藍色陰影 */
+.records-heading select#monthFilter { display: none; }
+.month-picker { position: relative; margin-left: auto; z-index: 45; }
+.month-picker-trigger {
+  border: 0;
+  box-shadow: none;
+  outline: none;
+  background: #fff7ba;
+  color: var(--ink);
+  padding: 4px 8px;
+  min-width: 92px;
+  text-align: center;
+  font-size: 12px;
+}
+.month-picker-options {
+  position: absolute;
+  right: 0;
+  top: 100%;
+  min-width: 100%;
+  background: #fff7ba;
+  border: 0;
+  box-shadow: none;
+  outline: none;
+  z-index: 50;
+  max-height: 0;
+  opacity: 0;
+  visibility: hidden;
+  overflow: hidden;
+  transform: translateY(-7px);
+  transform-origin: top center;
+  display: flex;
+  flex-direction: column;
+  pointer-events: none;
+  transition: max-height .35s ease, opacity .3s ease,
+              transform .35s ease, visibility 0s linear .35s;
+}
+.month-picker.open .month-picker-options {
+  max-height: 240px;
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0);
+  pointer-events: auto;
+  transition: max-height .35s ease, opacity .3s ease,
+              transform .35s ease, visibility 0s;
+}
+.month-picker-option {
+  border: 0;
+  box-shadow: none;
+  outline: none;
+  background: #fff7ba;
+  color: var(--ink);
+  padding: 7px 10px;
+  text-align: left;
+  white-space: nowrap;
+  font-size: 12px;
+  flex-shrink: 0;
+}
+.month-picker-option:hover, .month-picker-option:focus-visible {
+  background: #4EB0CE;
+  color: #fff;
+  outline: none;
+}
+@media (prefers-reduced-motion: reduce) {
+  .month-picker-options { transition: none; }
+}
+
+/* 月份預覽在紀錄卡片上方顯示，不被下方圖表遮住 */
+.venue-tile:has(.month-picker.open) { z-index: 80; }
+.venue-tile .records-heading { position: relative; z-index: 81; }
+.venue-tile .month-picker { z-index: 82; }
+.venue-tile .month-picker-options { z-index: 83; }
+/* ECharts tooltip 可越過圖表容器，並顯示在最上層 */
+body > div[_echarts_instance_] { z-index: 9999; }
