@@ -1035,3 +1035,51 @@ body.dashboard-awaiting-venue .calendar-tile .calendar-toolbar { visibility: hid
 .venue-tile .month-picker-options { z-index: 83; }
 /* ECharts tooltip 可越過圖表容器，並顯示在最上層 */
 body > div[_echarts_instance_] { z-index: 9999; }
+
+/* 資料來源連結：保留原本配色與版面 */
+footer a { color: #4eb0ce; text-underline-offset: 2px; }
+footer a:hover { color: #ffeb59; }
+.record a { color: #237e9c; text-underline-offset: 2px; }
+
+/* 左下環形圖：自訂兩列圖例，無捲動箭頭 */
+.types-tile { display:flex; flex-direction:column; }
+.weekday-chart-wrap { flex:1; min-height:0; display:flex; flex-direction:column; }
+.weekday-chart-wrap > #types { flex:1; height:auto; min-height:80px; width:100%; }
+.weekday-legend { flex-shrink:0; display:flex; flex-direction:column; align-items:center; gap:5px; padding:3px 0 2px; }
+.weekday-legend-row { display:flex; justify-content:center; align-items:center; flex-wrap:nowrap; gap:clamp(4px,.6vw,9px); width:100%; }
+.weekday-legend-row.weekend { gap:15px; }
+.weekday-legend-item { display:inline-flex; align-items:center; gap:3px; color:#237E9C; font-size:clamp(9px,.72vw,11px); font-weight:800; white-space:nowrap; }
+.weekday-legend-item i { display:inline-block; width:8px; height:8px; border-radius:2px; flex-shrink:0; }
+
+/* 場館資訊卡：指定深藍綠色，其他圖表與週末橘色不變 */
+.venue-tile .tile-heading, .venue-tile #venueTitle, .venue-tile .mini-label, .venue-tile #venueInfo, .venue-tile #venueInfo a { color: #237E9C; }
+
+/* 收合時將租用紀錄嚴格限制在場館卡片內，展開時維持原本浮層互動。 */
+.venue-tile:not(.records-expanded) .record-list { overflow-y: hidden; }
+.venue-tile.records-expanded .record-list { overflow-y: auto; }
+
+/* 13 個月份：完整可捲動選單，固定於視窗內避免被卡片與下方圖表裁切 */
+.month-picker-options {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: auto;
+  width: max-content;
+  min-width: 100px;
+  max-height: 0;
+  overflow-x: hidden;
+  overflow-y: auto;
+  overscroll-behavior: contain;
+  scrollbar-width: thin;
+  z-index: 999;
+}
+.month-picker.open .month-picker-options {
+  max-height: var(--month-menu-height, 420px);
+  overflow-y: auto;
+}
+
+/* 小巨蛋每筆租用紀錄的來源檔案名稱，避免長檔名撐破卡片 */
+.record-source-file { display:inline-block; max-width:100%; overflow-wrap:anywhere; font-size:10px; opacity:.75; vertical-align:top; }
+
+/* 沒有該場館紀錄的月份不出現在月份下拉清單中 */
+.month-picker-option[hidden] { display: none !important; }

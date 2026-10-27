@@ -1,131 +1,1003 @@
 [
   {
-    "type": "主場館活動使用空間",
-    "company": "華研國際音樂股份有限公司",
-    "start": "20260513",
-    "end": "20260517",
-    "event": "動力火車 2026 世界巡迴演唱 台北首唱場",
-    "space": "B1-1號店舖"
+    "type": "場地租用",
+    "company": "全威娛樂經紀有限公司",
+    "start": "20251001",
+    "end": "20251005",
+    "event": "2025李翊君 台北小巨蛋 初登場演唱會",
+    "space": "主場館",
+    "source_url": "https://data.taipei/dataset/detail?id=f0497727-b2cd-46fa-87c8-c6af6bb9eada",
+    "source_file": "臺北小巨蛋場地租用資訊_202510.csv"
   },
   {
-    "type": "主場館活動使用空間",
-    "company": "台北之音廣播股份有限公司",
-    "start": "20260523",
-    "end": "20260523",
-    "event": "2026 HITO流行音樂獎頒獎典禮",
-    "space": "B1-1號店舖"
+    "type": "場地租用",
+    "company": "超級圓頂事業股份有限公司",
+    "start": "20251006",
+    "end": "20251013",
+    "event": "2025 優里巡迴演唱會台北場",
+    "space": "主場館",
+    "source_url": "https://data.taipei/dataset/detail?id=f0497727-b2cd-46fa-87c8-c6af6bb9eada",
+    "source_file": "臺北小巨蛋場地租用資訊_202510.csv"
   },
   {
     "type": "主場館活動使用空間",
     "company": "超級圓頂事業股份有限公司",
-    "start": "20260528",
-    "end": "20260531",
-    "event": "2026年台北小巨蛋韋禮安世界巡迴演唱會",
-    "space": "2樓6號店舖"
+    "start": "20251010",
+    "end": "20251012",
+    "event": "2025 優里巡迴演唱會台北場",
+    "space": "2樓2號店舖",
+    "source_url": "https://data.taipei/dataset/detail?id=f73cbd3e-c8a3-4cbc-8cdd-f62d95e5ac9d",
+    "source_file": "臺北小巨蛋主場館活動使用空間租用資訊_202510.csv"
   },
   {
     "type": "主場館活動使用空間",
-    "company": "英屬維京群島商大國文化有限公司台灣分公司",
-    "start": "20260606",
-    "end": "20260607",
-    "event": "King Gnu Live in Taipei 2026",
-    "space": "2樓8號店舖"
+    "company": "超級圓頂事業股份有限公司",
+    "start": "20251010",
+    "end": "20251012",
+    "event": "2025 優里巡迴演唱會台北場",
+    "space": "2樓4號店舖",
+    "source_url": "https://data.taipei/dataset/detail?id=f73cbd3e-c8a3-4cbc-8cdd-f62d95e5ac9d",
+    "source_file": "臺北小巨蛋主場館活動使用空間租用資訊_202510.csv"
   },
   {
     "type": "主場館活動使用空間",
-    "company": "好玩國際文化股份有限公司",
-    "start": "20260618",
-    "end": "20260620",
-    "event": "LiSA Live in Taipei 2026",
-    "space": "2樓8號店舖"
+    "company": "超級圓頂事業股份有限公司",
+    "start": "20251010",
+    "end": "20251012",
+    "event": "2025 優里巡迴演唱會台北場",
+    "space": "2樓8號店舖",
+    "source_url": "https://data.taipei/dataset/detail?id=f73cbd3e-c8a3-4cbc-8cdd-f62d95e5ac9d",
+    "source_file": "臺北小巨蛋主場館活動使用空間租用資訊_202510.csv"
   },
   {
     "type": "主場館活動使用空間",
-    "company": "文化部影視及流行音樂產業局",
-    "start": "20260624",
-    "end": "20260628",
-    "event": "第37屆流行音樂金曲獎頒獎典禮",
-    "space": "B1-100會議室"
+    "company": "超級圓頂事業股份有限公司",
+    "start": "20251010",
+    "end": "20251012",
+    "event": "2025 優里巡迴演唱會台北場",
+    "space": "B1-1號店舖",
+    "source_url": "https://data.taipei/dataset/detail?id=f73cbd3e-c8a3-4cbc-8cdd-f62d95e5ac9d",
+    "source_file": "臺北小巨蛋主場館活動使用空間租用資訊_202510.csv"
+  },
+  {
+    "type": "廣場",
+    "company": "超級圓頂事業股份有限公司",
+    "start": "20251010",
+    "end": "20251012",
+    "event": "2025 優里巡迴演唱會台北場",
+    "space": "北廣場全區租用",
+    "source_url": "https://data.taipei/dataset/detail?id=bcf11ef9-9855-4ee3-8750-ca3df5aaf6c4",
+    "source_file": "臺北小巨蛋廣場租用資訊_202510.csv"
+  },
+  {
+    "type": "廣場",
+    "company": "超級圓頂事業股份有限公司",
+    "start": "20251011",
+    "end": "20251012",
+    "event": "2025 優里巡迴演唱會台北場",
+    "space": "南廣場部分租用帳蓬",
+    "source_url": "https://data.taipei/dataset/detail?id=bcf11ef9-9855-4ee3-8750-ca3df5aaf6c4",
+    "source_file": "臺北小巨蛋廣場租用資訊_202510.csv"
+  },
+  {
+    "type": "場地租用",
+    "company": "牛耳有限公司",
+    "start": "20251019",
+    "end": "20251023",
+    "event": "《進擊的巨人》：「進擊之境」交響音樂會",
+    "space": "主場館",
+    "source_url": "https://data.taipei/dataset/detail?id=f0497727-b2cd-46fa-87c8-c6af6bb9eada",
+    "source_file": "臺北小巨蛋場地租用資訊_202510.csv"
   },
   {
     "type": "主場館活動使用空間",
-    "company": "中華民國羽球協會",
-    "start": "20260725",
-    "end": "20260726",
-    "event": "2026台北羽球公開賽",
-    "space": "1樓北大廳店舖"
+    "company": "牛耳有限公司",
+    "start": "20251020",
+    "end": "20251023",
+    "event": "《進擊的巨人》：「進擊之境」交響音樂會",
+    "space": "2樓8號店舖",
+    "source_url": "https://data.taipei/dataset/detail?id=f73cbd3e-c8a3-4cbc-8cdd-f62d95e5ac9d",
+    "source_file": "臺北小巨蛋主場館活動使用空間租用資訊_202510.csv"
+  },
+  {
+    "type": "場地租用",
+    "company": "中華民國太極拳總會",
+    "start": "20251024",
+    "end": "20251026",
+    "event": "2025年第九屆世界盃太極拳錦標賽",
+    "space": "主場館",
+    "source_url": "https://data.taipei/dataset/detail?id=f0497727-b2cd-46fa-87c8-c6af6bb9eada",
+    "source_file": "臺北小巨蛋場地租用資訊_202510.csv"
+  },
+  {
+    "type": "場地租用",
+    "company": "聯成娛樂事業有限公司",
+    "start": "20251027",
+    "end": "20251031",
+    "event": "理想混蛋第一次攻蛋演唱會",
+    "space": "主場館",
+    "source_url": "https://data.taipei/dataset/detail?id=f0497727-b2cd-46fa-87c8-c6af6bb9eada",
+    "source_file": "臺北小巨蛋場地租用資訊_202510.csv"
   },
   {
     "type": "主場館活動使用空間",
-    "company": "中華民國羽球協會",
-    "start": "20260724",
-    "end": "20260725",
-    "event": "2026台北羽球公開賽",
-    "space": "B1-1號店舖"
+    "company": "聯成娛樂事業有限公司",
+    "start": "20251101",
+    "end": "20251102",
+    "event": "理想混蛋第一次攻蛋演唱會",
+    "space": "B1-1號店舖",
+    "source_url": "https://data.taipei/dataset/detail?id=f73cbd3e-c8a3-4cbc-8cdd-f62d95e5ac9d",
+    "source_file": "臺北小巨蛋主場館活動使用空間租用資訊_202511.csv"
+  },
+  {
+    "type": "場地租用",
+    "company": "聯成娛樂事業有限公司",
+    "start": "20251101",
+    "end": "20251102",
+    "event": "理想混蛋第一次攻蛋演唱會",
+    "space": "主場館",
+    "source_url": "https://data.taipei/dataset/detail?id=f0497727-b2cd-46fa-87c8-c6af6bb9eada",
+    "source_file": "臺北小巨蛋場地租用資訊_202511.csv"
+  },
+  {
+    "type": "廣場",
+    "company": "聯成娛樂事業有限公司",
+    "start": "20251101",
+    "end": "20251102",
+    "event": "理想混蛋第一次攻蛋演唱會",
+    "space": "北廣場部分租用",
+    "source_url": "https://data.taipei/dataset/detail?id=bcf11ef9-9855-4ee3-8750-ca3df5aaf6c4",
+    "source_file": "臺北小巨蛋廣場租用資訊_202511.csv"
+  },
+  {
+    "type": "場地租用",
+    "company": "牛耳有限公司",
+    "start": "20251103",
+    "end": "20251106",
+    "event": "迪士尼《公主音樂會》",
+    "space": "主場館",
+    "source_url": "https://data.taipei/dataset/detail?id=f0497727-b2cd-46fa-87c8-c6af6bb9eada",
+    "source_file": "臺北小巨蛋場地租用資訊_202511.csv"
   },
   {
     "type": "主場館活動使用空間",
-    "company": "中華民國羽球協會",
-    "start": "20260725",
-    "end": "20260731",
-    "event": "2026台北羽球公開賽",
-    "space": "2樓2號店舖"
+    "company": "牛耳有限公司",
+    "start": "20251105",
+    "end": "20251105",
+    "event": "迪士尼《公主音樂會》",
+    "space": "2樓4號店舖",
+    "source_url": "https://data.taipei/dataset/detail?id=f73cbd3e-c8a3-4cbc-8cdd-f62d95e5ac9d",
+    "source_file": "臺北小巨蛋主場館活動使用空間租用資訊_202511.csv"
   },
   {
     "type": "主場館活動使用空間",
-    "company": "中華民國羽球協會",
-    "start": "20260801",
-    "end": "20260802",
-    "event": "2026台北羽球公開賽",
-    "space": "2樓2號店舖"
+    "company": "牛耳有限公司",
+    "start": "20251105",
+    "end": "20251105",
+    "event": "迪士尼《公主音樂會》",
+    "space": "3樓2號店舖",
+    "source_url": "https://data.taipei/dataset/detail?id=f73cbd3e-c8a3-4cbc-8cdd-f62d95e5ac9d",
+    "source_file": "臺北小巨蛋主場館活動使用空間租用資訊_202511.csv"
+  },
+  {
+    "type": "廣場",
+    "company": "牛耳有限公司",
+    "start": "20251105",
+    "end": "20251105",
+    "event": "迪士尼《公主音樂會》",
+    "space": "北廣場部分租用",
+    "source_url": "https://data.taipei/dataset/detail?id=bcf11ef9-9855-4ee3-8750-ca3df5aaf6c4",
+    "source_file": "臺北小巨蛋廣場租用資訊_202511.csv"
+  },
+  {
+    "type": "場地租用",
+    "company": "台灣體育運動舞蹈發展協會",
+    "start": "20251107",
+    "end": "20251109",
+    "event": "2025 舞王世界公開賽",
+    "space": "主場館",
+    "source_url": "https://data.taipei/dataset/detail?id=f0497727-b2cd-46fa-87c8-c6af6bb9eada",
+    "source_file": "臺北小巨蛋場地租用資訊_202511.csv"
   },
   {
     "type": "主場館活動使用空間",
-    "company": "大鴻藝術股份有限公司",
-    "start": "20260821",
-    "end": "20260823",
-    "event": "back number ASlA TOUR 2026 in Taipei",
-    "space": "2樓8號店舖"
+    "company": "台灣體育運動舞蹈發展協會",
+    "start": "20251108",
+    "end": "20251108",
+    "event": "2025 舞王世界公開賽",
+    "space": "B1-1號店舖",
+    "source_url": "https://data.taipei/dataset/detail?id=f73cbd3e-c8a3-4cbc-8cdd-f62d95e5ac9d",
+    "source_file": "臺北小巨蛋主場館活動使用空間租用資訊_202511.csv"
+  },
+  {
+    "type": "場地租用",
+    "company": "用心音樂國際有限公司",
+    "start": "20251110",
+    "end": "20251116",
+    "event": "2025丁噹演唱會",
+    "space": "主場館",
+    "source_url": "https://data.taipei/dataset/detail?id=f0497727-b2cd-46fa-87c8-c6af6bb9eada",
+    "source_file": "臺北小巨蛋場地租用資訊_202511.csv"
   },
   {
     "type": "主場館活動使用空間",
-    "company": "大鴻藝術股份有限公司",
-    "start": "20260821",
-    "end": "20260823",
-    "event": "back number ASlA TOUR 2026 in Taipei",
-    "space": "B1-1號店舖"
+    "company": "用心音樂國際有限公司",
+    "start": "20251114",
+    "end": "20251116",
+    "event": "2025丁噹演唱會",
+    "space": "2樓6號店舖",
+    "source_url": "https://data.taipei/dataset/detail?id=f73cbd3e-c8a3-4cbc-8cdd-f62d95e5ac9d",
+    "source_file": "臺北小巨蛋主場館活動使用空間租用資訊_202511.csv"
   },
   {
-    "type": "主場館活動使用空間",
+    "type": "廣場",
+    "company": "用心音樂國際有限公司",
+    "start": "20251115",
+    "end": "20251116",
+    "event": "2025丁噹演唱會",
+    "space": "北廣場部分租用",
+    "source_url": "https://data.taipei/dataset/detail?id=bcf11ef9-9855-4ee3-8750-ca3df5aaf6c4",
+    "source_file": "臺北小巨蛋廣場租用資訊_202511.csv"
+  },
+  {
+    "type": "場地租用",
+    "company": "華納國際音樂股份有限公司",
+    "start": "20251117",
+    "end": "20251123",
+    "event": "Marz23 演唱會-台北場",
+    "space": "主場館",
+    "source_url": "https://data.taipei/dataset/detail?id=f0497727-b2cd-46fa-87c8-c6af6bb9eada",
+    "source_file": "臺北小巨蛋場地租用資訊_202511.csv"
+  },
+  {
+    "type": "廣場",
+    "company": "華納國際音樂股份有限公司",
+    "start": "20251122",
+    "end": "20251122",
+    "event": "Marz23 演唱會-台北場",
+    "space": "北廣場部分租用",
+    "source_url": "https://data.taipei/dataset/detail?id=bcf11ef9-9855-4ee3-8750-ca3df5aaf6c4",
+    "source_file": "臺北小巨蛋廣場租用資訊_202511.csv"
+  },
+  {
+    "type": "場地租用",
     "company": "寬宏藝術經紀股份有限公司",
-    "start": "20260828",
-    "end": "20260830",
-    "event": "Official髭男dism 2026台北演唱會",
-    "space": "2樓8號店舖"
+    "start": "20251124",
+    "end": "20251126",
+    "event": "初音未來2025台北演唱會",
+    "space": "主場館",
+    "source_url": "https://data.taipei/dataset/detail?id=f0497727-b2cd-46fa-87c8-c6af6bb9eada",
+    "source_file": "臺北小巨蛋場地租用資訊_202511.csv"
+  },
+  {
+    "type": "廣場",
+    "company": "寬宏藝術經紀股份有限公司",
+    "start": "20251126",
+    "end": "20251126",
+    "event": "初音未來2025台北演唱會",
+    "space": "北廣場部分租用",
+    "source_url": "https://data.taipei/dataset/detail?id=bcf11ef9-9855-4ee3-8750-ca3df5aaf6c4",
+    "source_file": "臺北小巨蛋廣場租用資訊_202511.csv"
+  },
+  {
+    "type": "場地租用",
+    "company": "上行詩音樂工作室",
+    "start": "20251127",
+    "end": "20251130",
+    "event": "2025 民歌50嘉年華",
+    "space": "主場館",
+    "source_url": "https://data.taipei/dataset/detail?id=f0497727-b2cd-46fa-87c8-c6af6bb9eada",
+    "source_file": "臺北小巨蛋場地租用資訊_202511.csv"
+  },
+  {
+    "type": "場地租用",
+    "company": "就是娛樂股份有限公司",
+    "start": "20251201",
+    "end": "20251207",
+    "event": "2025 ZEROBASEONE 巡迴演唱會台北站",
+    "space": "主場館",
+    "source_url": "https://data.taipei/dataset/detail?id=f0497727-b2cd-46fa-87c8-c6af6bb9eada",
+    "source_file": "臺北小巨蛋場地租用資訊_202512.csv"
   },
   {
     "type": "主場館活動使用空間",
-    "company": "臺北市政府文化局",
-    "start": "20260904",
-    "end": "20260905",
-    "event": "115年第二屆「潮臺北TRENDY TAIPEI-Music X Innovation」小巨蛋演唱會節目遴選計畫",
-    "space": "B1-1號店舖"
+    "company": "就是娛樂股份有限公司",
+    "start": "20251205",
+    "end": "20251206",
+    "event": "2025 ZEROBASEONE 巡迴演唱會台北站",
+    "space": "B1-1號店舖",
+    "source_url": "https://data.taipei/dataset/detail?id=f73cbd3e-c8a3-4cbc-8cdd-f62d95e5ac9d",
+    "source_file": "臺北小巨蛋主場館活動使用空間租用資訊_202512.csv"
+  },
+  {
+    "type": "廣場",
+    "company": "就是娛樂股份有限公司",
+    "start": "20251206",
+    "end": "20251206",
+    "event": "2025 ZEROBASEONE 巡迴演唱會台北站",
+    "space": "北廣場全區",
+    "source_url": "https://data.taipei/dataset/detail?id=bcf11ef9-9855-4ee3-8750-ca3df5aaf6c4",
+    "source_file": "臺北小巨蛋廣場租用資訊_202512 (1).csv"
+  },
+  {
+    "type": "場地租用",
+    "company": "無惧國際娛樂有限公司",
+    "start": "20251208",
+    "end": "20251215",
+    "event": "2025羅志祥30巡迴演唱會-台北站",
+    "space": "主場館",
+    "source_url": "https://data.taipei/dataset/detail?id=f0497727-b2cd-46fa-87c8-c6af6bb9eada",
+    "source_file": "臺北小巨蛋場地租用資訊_202512.csv"
+  },
+  {
+    "type": "廣場",
+    "company": "無惧國際娛樂有限公司",
+    "start": "20251213",
+    "end": "20251214",
+    "event": "2025羅志祥30巡迴演唱會-台北站",
+    "space": "北廣場部分租用",
+    "source_url": "https://data.taipei/dataset/detail?id=bcf11ef9-9855-4ee3-8750-ca3df5aaf6c4",
+    "source_file": "臺北小巨蛋廣場租用資訊_202512 (1).csv"
+  },
+  {
+    "type": "場地租用",
+    "company": "相遇音樂有限公司",
+    "start": "20251216",
+    "end": "20251221",
+    "event": "2025宇宙人演唱會",
+    "space": "主場館",
+    "source_url": "https://data.taipei/dataset/detail?id=f0497727-b2cd-46fa-87c8-c6af6bb9eada",
+    "source_file": "臺北小巨蛋場地租用資訊_202512.csv"
+  },
+  {
+    "type": "廣場",
+    "company": "相遇音樂有限公司",
+    "start": "20251220",
+    "end": "20251220",
+    "event": "2025宇宙人演唱會",
+    "space": "北廣場全區",
+    "source_url": "https://data.taipei/dataset/detail?id=bcf11ef9-9855-4ee3-8750-ca3df5aaf6c4",
+    "source_file": "臺北小巨蛋廣場租用資訊_202512 (1).csv"
+  },
+  {
+    "type": "場地租用",
+    "company": "錞藝音樂有限公司",
+    "start": "20251222",
+    "end": "20251228",
+    "event": "2025李聖傑巡迴演唱會",
+    "space": "主場館",
+    "source_url": "https://data.taipei/dataset/detail?id=f0497727-b2cd-46fa-87c8-c6af6bb9eada",
+    "source_file": "臺北小巨蛋場地租用資訊_202512.csv"
   },
   {
     "type": "主場館活動使用空間",
+    "company": "錞藝音樂有限公司",
+    "start": "20251224",
+    "end": "20251227",
+    "event": "2025李聖傑巡迴演唱會",
+    "space": "B1-1號店舖",
+    "source_url": "https://data.taipei/dataset/detail?id=f73cbd3e-c8a3-4cbc-8cdd-f62d95e5ac9d",
+    "source_file": "臺北小巨蛋主場館活動使用空間租用資訊_202512.csv"
+  },
+  {
+    "type": "廣場",
+    "company": "錞藝音樂有限公司",
+    "start": "20251226",
+    "end": "20251227",
+    "event": "2025李聖傑巡迴演唱會",
+    "space": "北廣場部分租用",
+    "source_url": "https://data.taipei/dataset/detail?id=bcf11ef9-9855-4ee3-8750-ca3df5aaf6c4",
+    "source_file": "臺北小巨蛋廣場租用資訊_202512 (1).csv"
+  },
+  {
+    "type": "場地租用",
+    "company": "超級圓頂事業股份有限公司",
+    "start": "20251229",
+    "end": "20251231",
+    "event": "BABY MONSTER TAIPEI FAN CONCERT (LOVE MONSTER)",
+    "space": "主場館",
+    "source_url": "https://data.taipei/dataset/detail?id=f0497727-b2cd-46fa-87c8-c6af6bb9eada",
+    "source_file": "臺北小巨蛋場地租用資訊_202512.csv"
+  },
+  {
+    "type": "主場館活動使用空間",
+    "company": "超級圓頂事業股份有限公司",
+    "start": "20260101",
+    "end": "20260103",
+    "event": "BABY MONSTER TAIPEI FAN CONCERT (LOVE MONSTER)",
+    "space": "2樓2號店舖",
+    "source_url": "https://data.taipei/dataset/detail?id=f73cbd3e-c8a3-4cbc-8cdd-f62d95e5ac9d",
+    "source_file": "臺北小巨蛋主場館活動使用空間租用資訊_202601.csv"
+  },
+  {
+    "type": "主場館活動使用空間",
+    "company": "超級圓頂事業股份有限公司",
+    "start": "20260101",
+    "end": "20260103",
+    "event": "BABY MONSTER TAIPEI FAN CONCERT (LOVE MONSTER)",
+    "space": "B1-1號店舖",
+    "source_url": "https://data.taipei/dataset/detail?id=f73cbd3e-c8a3-4cbc-8cdd-f62d95e5ac9d",
+    "source_file": "臺北小巨蛋主場館活動使用空間租用資訊_202601.csv"
+  },
+  {
+    "type": "場地租用",
+    "company": "超級圓頂事業股份有限公司",
+    "start": "20260101",
+    "end": "20260104",
+    "event": "BABY MONSTER TAIPEI FAN CONCERT (LOVE MONSTER)",
+    "space": "主場館",
+    "source_url": "https://data.taipei/dataset/detail?id=f0497727-b2cd-46fa-87c8-c6af6bb9eada",
+    "source_file": "臺北小巨蛋場地租用資訊_202601_V2.csv"
+  },
+  {
+    "type": "廣場",
+    "company": "超級圓頂事業股份有限公司",
+    "start": "20260101",
+    "end": "20260103",
+    "event": "BABY MONSTER TAIPEI FAN CONCERT (LOVE MONSTER)",
+    "space": "北廣場全區租用",
+    "source_url": "https://data.taipei/dataset/detail?id=bcf11ef9-9855-4ee3-8750-ca3df5aaf6c4",
+    "source_file": "臺北小巨蛋廣場租用資訊_202601.csv"
+  },
+  {
+    "type": "場地租用",
+    "company": "用心音樂國際有限公司",
+    "start": "20260105",
+    "end": "20260111",
+    "event": "2026Energy演唱會",
+    "space": "主場館",
+    "source_url": "https://data.taipei/dataset/detail?id=f0497727-b2cd-46fa-87c8-c6af6bb9eada",
+    "source_file": "臺北小巨蛋場地租用資訊_202601_V2.csv"
+  },
+  {
+    "type": "主場館活動使用空間",
+    "company": "用心音樂國際有限公司",
+    "start": "20260108",
+    "end": "20260111",
+    "event": "2026Energy演唱會",
+    "space": "2樓6號店舖",
+    "source_url": "https://data.taipei/dataset/detail?id=f73cbd3e-c8a3-4cbc-8cdd-f62d95e5ac9d",
+    "source_file": "臺北小巨蛋主場館活動使用空間租用資訊_202601.csv"
+  },
+  {
+    "type": "廣場",
+    "company": "用心音樂國際有限公司",
+    "start": "20260110",
+    "end": "20260111",
+    "event": "2026Energy演唱會",
+    "space": "北廣場部分租用",
+    "source_url": "https://data.taipei/dataset/detail?id=bcf11ef9-9855-4ee3-8750-ca3df5aaf6c4",
+    "source_file": "臺北小巨蛋廣場租用資訊_202601.csv"
+  },
+  {
+    "type": "場地租用",
+    "company": "大步整合行銷有限公司",
+    "start": "20260112",
+    "end": "20260117",
+    "event": "RAIN亞洲巡迴演唱會",
+    "space": "主場館",
+    "source_url": "https://data.taipei/dataset/detail?id=f0497727-b2cd-46fa-87c8-c6af6bb9eada",
+    "source_file": "臺北小巨蛋場地租用資訊_202601_V2.csv"
+  },
+  {
+    "type": "主場館活動使用空間",
+    "company": "大步整合行銷有限公司",
+    "start": "20260117",
+    "end": "20260117",
+    "event": "RAIN亞洲巡迴演唱會",
+    "space": "2樓8號店舖",
+    "source_url": "https://data.taipei/dataset/detail?id=f73cbd3e-c8a3-4cbc-8cdd-f62d95e5ac9d",
+    "source_file": "臺北小巨蛋主場館活動使用空間租用資訊_202601.csv"
+  },
+  {
+    "type": "廣場",
+    "company": "大步整合行銷有限公司",
+    "start": "20260117",
+    "end": "20260117",
+    "event": "RAIN亞洲巡迴演唱會",
+    "space": "北廣場部分租用帳",
+    "source_url": "https://data.taipei/dataset/detail?id=bcf11ef9-9855-4ee3-8750-ca3df5aaf6c4",
+    "source_file": "臺北小巨蛋廣場租用資訊_202601.csv"
+  },
+  {
+    "type": "場地租用",
+    "company": "天晴娛樂有限公司",
+    "start": "20260118",
+    "end": "20260125",
+    "event": "2026王心凌世界巡迴演唱會-台北站",
+    "space": "主場館",
+    "source_url": "https://data.taipei/dataset/detail?id=f0497727-b2cd-46fa-87c8-c6af6bb9eada",
+    "source_file": "臺北小巨蛋場地租用資訊_202601_V2.csv"
+  },
+  {
+    "type": "場地租用",
+    "company": "臺灣電視事業股份有限公司",
+    "start": "20260126",
+    "end": "20260131",
+    "event": "2026超級巨星紅白藝能大賞",
+    "space": "主場館",
+    "source_url": "https://data.taipei/dataset/detail?id=f0497727-b2cd-46fa-87c8-c6af6bb9eada",
+    "source_file": "臺北小巨蛋場地租用資訊_202601_V2.csv"
+  },
+  {
+    "type": "主場館活動使用空間",
+    "company": "臺灣電視事業股份有限公司",
+    "start": "20260130",
+    "end": "20260131",
+    "event": "2026超級巨星紅白藝能大賞",
+    "space": "B1-100會議室",
+    "source_url": "https://data.taipei/dataset/detail?id=f73cbd3e-c8a3-4cbc-8cdd-f62d95e5ac9d",
+    "source_file": "臺北小巨蛋主場館活動使用空間租用資訊_202601.csv"
+  },
+  {
+    "type": "場地租用",
+    "company": "臺灣電視事業股份有限公司",
+    "start": "20260201",
+    "end": "20260201",
+    "event": "2026超級巨星紅白藝能大賞",
+    "space": "主場館",
+    "source_url": "https://data.taipei/dataset/detail?id=f0497727-b2cd-46fa-87c8-c6af6bb9eada",
+    "source_file": "臺北小巨蛋場地租用資訊_202602.csv"
+  },
+  {
+    "type": "場地租用",
+    "company": "宜辰整合行銷有限公司",
+    "start": "20260202",
+    "end": "20260208",
+    "event": "2026 魏如萱 演唱會",
+    "space": "主場館",
+    "source_url": "https://data.taipei/dataset/detail?id=f0497727-b2cd-46fa-87c8-c6af6bb9eada",
+    "source_file": "臺北小巨蛋場地租用資訊_202602.csv"
+  },
+  {
+    "type": "廣場",
+    "company": "宜辰整合行銷有限公司",
+    "start": "20260207",
+    "end": "20260208",
+    "event": "2026 魏如萱 演唱會",
+    "space": "北廣場部分租用",
+    "source_url": "https://data.taipei/dataset/detail?id=bcf11ef9-9855-4ee3-8750-ca3df5aaf6c4",
+    "source_file": "臺北小巨蛋廣場租用資訊_202602.csv"
+  },
+  {
+    "type": "場地租用",
+    "company": "寬宏藝術經紀股份有限公司",
+    "start": "20260209",
+    "end": "20260215",
+    "event": "冰上迪士尼",
+    "space": "主場館",
+    "source_url": "https://data.taipei/dataset/detail?id=f0497727-b2cd-46fa-87c8-c6af6bb9eada",
+    "source_file": "臺北小巨蛋場地租用資訊_202602.csv"
+  },
+  {
+    "type": "場地租用",
+    "company": "寬宏藝術經紀股份有限公司",
+    "start": "20260216",
+    "end": "20260225",
+    "event": "2026江蕙演唱會-返場",
+    "space": "主場館",
+    "source_url": "https://data.taipei/dataset/detail?id=f0497727-b2cd-46fa-87c8-c6af6bb9eada",
+    "source_file": "臺北小巨蛋場地租用資訊_202602.csv"
+  },
+  {
+    "type": "廣場",
+    "company": "寬宏藝術經紀股份有限公司",
+    "start": "20260224",
+    "end": "20260225",
+    "event": "2026江蕙演唱會-返場",
+    "space": "北廣場部分租用",
+    "source_url": "https://data.taipei/dataset/detail?id=bcf11ef9-9855-4ee3-8750-ca3df5aaf6c4",
+    "source_file": "臺北小巨蛋廣場租用資訊_202602.csv"
+  },
+  {
+    "type": "場地租用",
+    "company": "社團法人臺灣舞蹈組織總會",
+    "start": "20260226",
+    "end": "20260228",
+    "event": "2026國標舞亞巡賽-臺北公開賽",
+    "space": "主場館",
+    "source_url": "https://data.taipei/dataset/detail?id=f0497727-b2cd-46fa-87c8-c6af6bb9eada",
+    "source_file": "臺北小巨蛋場地租用資訊_202602.csv"
+  },
+  {
+    "type": "主場館活動使用空間",
+    "company": "社團法人臺灣舞蹈組織總會",
+    "start": "20260228",
+    "end": "20260228",
+    "event": "2026國標舞亞巡賽-臺北公開賽",
+    "space": "2樓1號店舖",
+    "source_url": "https://data.taipei/dataset/detail?id=f73cbd3e-c8a3-4cbc-8cdd-f62d95e5ac9d",
+    "source_file": "臺北小巨蛋主場館活動使用空間租用資訊_202602.csv"
+  },
+  {
+    "type": "主場館活動使用空間",
+    "company": "社團法人臺灣舞蹈組織總會",
+    "start": "20260228",
+    "end": "20260228",
+    "event": "2026國標舞亞巡賽-臺北公開賽",
+    "space": "2樓2號店舖",
+    "source_url": "https://data.taipei/dataset/detail?id=f73cbd3e-c8a3-4cbc-8cdd-f62d95e5ac9d",
+    "source_file": "臺北小巨蛋主場館活動使用空間租用資訊_202602.csv"
+  },
+  {
+    "type": "主場館活動使用空間",
+    "company": "社團法人臺灣舞蹈組織總會",
+    "start": "20260228",
+    "end": "20260228",
+    "event": "2026國標舞亞巡賽-臺北公開賽",
+    "space": "2樓3號店舖",
+    "source_url": "https://data.taipei/dataset/detail?id=f73cbd3e-c8a3-4cbc-8cdd-f62d95e5ac9d",
+    "source_file": "臺北小巨蛋主場館活動使用空間租用資訊_202602.csv"
+  },
+  {
+    "type": "場地租用",
     "company": "理想國演藝股份有限公司",
-    "start": "20260910",
-    "end": "20260913",
-    "event": "IVE 2026 台北演唱會",
-    "space": "B1-1號店舖"
+    "start": "20260301",
+    "end": "20260305",
+    "event": "OneRepublic 2026台北演唱會",
+    "space": "主場館",
+    "source_url": "https://data.taipei/dataset/detail?id=f0497727-b2cd-46fa-87c8-c6af6bb9eada",
+    "source_file": "臺北小巨蛋場地租用資訊_202603.csv"
+  },
+  {
+    "type": "廣場",
+    "company": "理想國演藝股份有限公司",
+    "start": "20260304",
+    "end": "20260304",
+    "event": "OneRepublic 2026台北演唱會",
+    "space": "北廣場部分租用",
+    "source_url": "https://data.taipei/dataset/detail?id=bcf11ef9-9855-4ee3-8750-ca3df5aaf6c4",
+    "source_file": "臺北小巨蛋廣場租用資訊_202603.csv"
+  },
+  {
+    "type": "場地租用",
+    "company": "國際佛光會中華總會",
+    "start": "20260306",
+    "end": "20260308",
+    "event": "為世界和平祈願祝禱─佛光山2026年禪淨共修獻燈祈福",
+    "space": "主場館",
+    "source_url": "https://data.taipei/dataset/detail?id=f0497727-b2cd-46fa-87c8-c6af6bb9eada",
+    "source_file": "臺北小巨蛋場地租用資訊_202603.csv"
+  },
+  {
+    "type": "場地租用",
+    "company": "中華民國拔河運動協會",
+    "start": "20260310",
+    "end": "20260316",
+    "event": "2026世界室內拔河錦標賽",
+    "space": "主場館",
+    "source_url": "https://data.taipei/dataset/detail?id=f0497727-b2cd-46fa-87c8-c6af6bb9eada",
+    "source_file": "臺北小巨蛋場地租用資訊_202603.csv"
+  },
+  {
+    "type": "場地租用",
+    "company": "中華民國高級中等學校體育總會",
+    "start": "20260318",
+    "end": "20260323",
+    "event": "114學年度高中籃球聯賽甲級總決賽",
+    "space": "主場館",
+    "source_url": "https://data.taipei/dataset/detail?id=f0497727-b2cd-46fa-87c8-c6af6bb9eada",
+    "source_file": "臺北小巨蛋場地租用資訊_202603.csv"
+  },
+  {
+    "type": "廣場",
+    "company": "中華民國高級中等學校體育總會",
+    "start": "20260318",
+    "end": "20260323",
+    "event": "114學年度高中籃球聯賽甲級總決賽",
+    "space": "北廣場全區",
+    "source_url": "https://data.taipei/dataset/detail?id=bcf11ef9-9855-4ee3-8750-ca3df5aaf6c4",
+    "source_file": "臺北小巨蛋廣場租用資訊_202603.csv"
+  },
+  {
+    "type": "廣場",
+    "company": "中華民國高級中等學校體育總會",
+    "start": "20260319",
+    "end": "20260323",
+    "event": "114學年度高中籃球聯賽甲級總決賽",
+    "space": "南廣場部分租用",
+    "source_url": "https://data.taipei/dataset/detail?id=bcf11ef9-9855-4ee3-8750-ca3df5aaf6c4",
+    "source_file": "臺北小巨蛋廣場租用資訊_202603.csv"
   },
   {
     "type": "主場館活動使用空間",
+    "company": "中華民國高級中等學校體育總會",
+    "start": "20260320",
+    "end": "20260322",
+    "event": "114學年度高中籃球聯賽甲級總決賽",
+    "space": "2樓2號店舖",
+    "source_url": "https://data.taipei/dataset/detail?id=f73cbd3e-c8a3-4cbc-8cdd-f62d95e5ac9d",
+    "source_file": "臺北小巨蛋主場館活動使用空間租用資訊_202603.csv"
+  },
+  {
+    "type": "主場館活動使用空間",
+    "company": "中華民國高級中等學校體育總會",
+    "start": "20260320",
+    "end": "20260322",
+    "event": "114學年度高中籃球聯賽甲級總決賽",
+    "space": "2樓4號店舖",
+    "source_url": "https://data.taipei/dataset/detail?id=f73cbd3e-c8a3-4cbc-8cdd-f62d95e5ac9d",
+    "source_file": "臺北小巨蛋主場館活動使用空間租用資訊_202603.csv"
+  },
+  {
+    "type": "主場館活動使用空間",
+    "company": "中華民國高級中等學校體育總會",
+    "start": "20260320",
+    "end": "20260322",
+    "event": "114學年度高中籃球聯賽甲級總決賽",
+    "space": "2樓8號店舖",
+    "source_url": "https://data.taipei/dataset/detail?id=f73cbd3e-c8a3-4cbc-8cdd-f62d95e5ac9d",
+    "source_file": "臺北小巨蛋主場館活動使用空間租用資訊_202603.csv"
+  },
+  {
+    "type": "主場館活動使用空間",
+    "company": "中華民國高級中等學校體育總會",
+    "start": "20260321",
+    "end": "20260322",
+    "event": "114學年度高中籃球聯賽甲級總決賽",
+    "space": "B1-100會議室店舖",
+    "source_url": "https://data.taipei/dataset/detail?id=f73cbd3e-c8a3-4cbc-8cdd-f62d95e5ac9d",
+    "source_file": "臺北小巨蛋主場館活動使用空間租用資訊_202603.csv"
+  },
+  {
+    "type": "主場館活動使用空間",
+    "company": "中華民國高級中等學校體育總會",
+    "start": "20260321",
+    "end": "20260322",
+    "event": "114學年度高中籃球聯賽甲級總決賽",
+    "space": "B1-1號店舖",
+    "source_url": "https://data.taipei/dataset/detail?id=f73cbd3e-c8a3-4cbc-8cdd-f62d95e5ac9d",
+    "source_file": "臺北小巨蛋主場館活動使用空間租用資訊_202603.csv"
+  },
+  {
+    "type": "場地租用",
+    "company": "台灣體育運動舞蹈發展協會",
+    "start": "20260327",
+    "end": "20260329",
+    "event": "2026舞王世界公開賽",
+    "space": "主場館",
+    "source_url": "https://data.taipei/dataset/detail?id=f0497727-b2cd-46fa-87c8-c6af6bb9eada",
+    "source_file": "臺北小巨蛋場地租用資訊_202603.csv"
+  },
+  {
+    "type": "主場館活動使用空間",
+    "company": "台灣體育運動舞蹈發展協會",
+    "start": "20260328",
+    "end": "20260328",
+    "event": "2026舞王世界公開賽",
+    "space": "B1-1號店舖",
+    "source_url": "https://data.taipei/dataset/detail?id=f73cbd3e-c8a3-4cbc-8cdd-f62d95e5ac9d",
+    "source_file": "臺北小巨蛋主場館活動使用空間租用資訊_202603.csv"
+  },
+  {
+    "type": "場地租用",
+    "company": "圓頂文化事業有限公司",
+    "start": "20260329",
+    "end": "20260331",
+    "event": "tuki. ASIA TOUR in TAIPEI",
+    "space": "主場館",
+    "source_url": "https://data.taipei/dataset/detail?id=f0497727-b2cd-46fa-87c8-c6af6bb9eada",
+    "source_file": "臺北小巨蛋場地租用資訊_202603.csv"
+  },
+  {
+    "type": "主場館活動使用空間",
+    "company": "圓頂文化事業有限公司",
+    "start": "20260401",
+    "end": "20260405",
+    "event": "tuki. ASIA TOUR in TAIPEI",
+    "space": "2樓6號店舖",
+    "source_url": "https://data.taipei/dataset/detail?id=f73cbd3e-c8a3-4cbc-8cdd-f62d95e5ac9d",
+    "source_file": "臺北小巨蛋主場館活動使用空間租用資訊_202604.csv"
+  },
+  {
+    "type": "主場館活動使用空間",
+    "company": "圓頂文化事業有限公司",
+    "start": "20260401",
+    "end": "20260408",
+    "event": "tuki. ASIA TOUR in TAIPEI",
+    "space": "2樓8號店舖",
+    "source_url": "https://data.taipei/dataset/detail?id=f73cbd3e-c8a3-4cbc-8cdd-f62d95e5ac9d",
+    "source_file": "臺北小巨蛋主場館活動使用空間租用資訊_202604.csv"
+  },
+  {
+    "type": "場地租用",
+    "company": "圓頂文化事業有限公司",
+    "start": "20260401",
+    "end": "20260409",
+    "event": "tuki. ASIA TOUR in TAIPEI",
+    "space": "主場館",
+    "source_url": "https://data.taipei/dataset/detail?id=f0497727-b2cd-46fa-87c8-c6af6bb9eada",
+    "source_file": "臺北小巨蛋場地租用資訊_202604.csv"
+  },
+  {
+    "type": "主場館活動使用空間",
+    "company": "圓頂文化事業有限公司",
+    "start": "20260403",
+    "end": "20260405",
+    "event": "tuki. ASIA TOUR in TAIPEI",
+    "space": "B1-1號店舖",
+    "source_url": "https://data.taipei/dataset/detail?id=f73cbd3e-c8a3-4cbc-8cdd-f62d95e5ac9d",
+    "source_file": "臺北小巨蛋主場館活動使用空間租用資訊_202604.csv"
+  },
+  {
+    "type": "廣場",
+    "company": "圓頂文化事業有限公司",
+    "start": "20260403",
+    "end": "20260405",
+    "event": "tuki. ASIA TOUR in TAIPEI",
+    "space": "北廣場全區",
+    "source_url": "https://data.taipei/dataset/detail?id=bcf11ef9-9855-4ee3-8750-ca3df5aaf6c4",
+    "source_file": "臺北小巨蛋廣場租用資訊_202604.csv"
+  },
+  {
+    "type": "廣場",
+    "company": "圓頂文化事業有限公司",
+    "start": "20260403",
+    "end": "20260405",
+    "event": "tuki. ASIA TOUR in TAIPEI",
+    "space": "南廣場部分租用",
+    "source_url": "https://data.taipei/dataset/detail?id=bcf11ef9-9855-4ee3-8750-ca3df5aaf6c4",
+    "source_file": "臺北小巨蛋廣場租用資訊_202604.csv"
+  },
+  {
+    "type": "主場館活動使用空間",
+    "company": "富邦育樂股份有限公司",
+    "start": "20260409",
+    "end": "20260412",
+    "event": "2025-2026年P.league+台灣職業籃球聯盟-臺北富邦勇士臺北小巨蛋主場賽事",
+    "space": "2樓2號店舖",
+    "source_url": "https://data.taipei/dataset/detail?id=f73cbd3e-c8a3-4cbc-8cdd-f62d95e5ac9d",
+    "source_file": "臺北小巨蛋主場館活動使用空間租用資訊_202604.csv"
+  },
+  {
+    "type": "主場館活動使用空間",
+    "company": "富邦育樂股份有限公司",
+    "start": "20260409",
+    "end": "20260412",
+    "event": "2025-2026年P.league+台灣職業籃球聯盟-臺北富邦勇士臺北小巨蛋主場賽事",
+    "space": "2樓6號店舖",
+    "source_url": "https://data.taipei/dataset/detail?id=f73cbd3e-c8a3-4cbc-8cdd-f62d95e5ac9d",
+    "source_file": "臺北小巨蛋主場館活動使用空間租用資訊_202604.csv"
+  },
+  {
+    "type": "場地租用",
+    "company": "富邦育樂股份有限公司",
+    "start": "20260409",
+    "end": "20260413",
+    "event": "2025-2026年P.league+台灣職業籃球聯盟-臺北富邦勇士臺北小巨蛋主場賽事",
+    "space": "主場館",
+    "source_url": "https://data.taipei/dataset/detail?id=f0497727-b2cd-46fa-87c8-c6af6bb9eada",
+    "source_file": "臺北小巨蛋場地租用資訊_202604.csv"
+  },
+  {
+    "type": "廣場",
+    "company": "富邦育樂股份有限公司",
+    "start": "20260409",
+    "end": "20260412",
+    "event": "2025-2026年P.league+台灣職業籃球聯盟-臺北富邦勇士臺北小巨蛋主場賽事",
+    "space": "北廣場全區",
+    "source_url": "https://data.taipei/dataset/detail?id=bcf11ef9-9855-4ee3-8750-ca3df5aaf6c4",
+    "source_file": "臺北小巨蛋廣場租用資訊_202604.csv"
+  },
+  {
+    "type": "主場館活動使用空間",
+    "company": "富邦育樂股份有限公司",
+    "start": "20260410",
+    "end": "20260412",
+    "event": "2025-2026年P.league+台灣職業籃球聯盟-臺北富邦勇士臺北小巨蛋主場賽事",
+    "space": "2樓1號店舖",
+    "source_url": "https://data.taipei/dataset/detail?id=f73cbd3e-c8a3-4cbc-8cdd-f62d95e5ac9d",
+    "source_file": "臺北小巨蛋主場館活動使用空間租用資訊_202604.csv"
+  },
+  {
+    "type": "主場館活動使用空間",
+    "company": "富邦育樂股份有限公司",
+    "start": "20260410",
+    "end": "20260412",
+    "event": "2025-2026年P.league+台灣職業籃球聯盟-臺北富邦勇士臺北小巨蛋主場賽事",
+    "space": "2樓3號店舖",
+    "source_url": "https://data.taipei/dataset/detail?id=f73cbd3e-c8a3-4cbc-8cdd-f62d95e5ac9d",
+    "source_file": "臺北小巨蛋主場館活動使用空間租用資訊_202604.csv"
+  },
+  {
+    "type": "主場館活動使用空間",
+    "company": "富邦育樂股份有限公司",
+    "start": "20260410",
+    "end": "20260412",
+    "event": "2025-2026年P.league+台灣職業籃球聯盟-臺北富邦勇士臺北小巨蛋主場賽事",
+    "space": "2樓8號店舖",
+    "source_url": "https://data.taipei/dataset/detail?id=f73cbd3e-c8a3-4cbc-8cdd-f62d95e5ac9d",
+    "source_file": "臺北小巨蛋主場館活動使用空間租用資訊_202604.csv"
+  },
+  {
+    "type": "場地租用",
+    "company": "中華民國大專院校體育總會",
+    "start": "20260415",
+    "end": "20260420",
+    "event": "中華民國大專校院114學年度籃球運動聯賽決賽",
+    "space": "主場館",
+    "source_url": "https://data.taipei/dataset/detail?id=f0497727-b2cd-46fa-87c8-c6af6bb9eada",
+    "source_file": "臺北小巨蛋場地租用資訊_202604.csv"
+  },
+  {
+    "type": "主場館活動使用空間",
+    "company": "中華民國大專院校體育總會",
+    "start": "20260416",
+    "end": "20260419",
+    "event": "中華民國大專校院114學年度籃球運動聯賽決賽",
+    "space": "2樓2號店舖",
+    "source_url": "https://data.taipei/dataset/detail?id=f73cbd3e-c8a3-4cbc-8cdd-f62d95e5ac9d",
+    "source_file": "臺北小巨蛋主場館活動使用空間租用資訊_202604.csv"
+  },
+  {
+    "type": "主場館活動使用空間",
+    "company": "中華民國大專院校體育總會",
+    "start": "20260416",
+    "end": "20260419",
+    "event": "中華民國大專校院114學年度籃球運動聯賽決賽",
+    "space": "2樓3號店舖",
+    "source_url": "https://data.taipei/dataset/detail?id=f73cbd3e-c8a3-4cbc-8cdd-f62d95e5ac9d",
+    "source_file": "臺北小巨蛋主場館活動使用空間租用資訊_202604.csv"
+  },
+  {
+    "type": "廣場",
+    "company": "中華民國大專院校體育總會",
+    "start": "20260416",
+    "end": "20260419",
+    "event": "中華民國大專校院114學年度籃球運動聯賽決賽",
+    "space": "北廣場全區",
+    "source_url": "https://data.taipei/dataset/detail?id=bcf11ef9-9855-4ee3-8750-ca3df5aaf6c4",
+    "source_file": "臺北小巨蛋廣場租用資訊_202604.csv"
+  },
+  {
+    "type": "場地租用",
+    "company": "群石國際有限公司",
+    "start": "20260421",
+    "end": "20260425",
+    "event": "2026周蕙25 小巨蛋限定演唱會",
+    "space": "主場館",
+    "source_url": "https://data.taipei/dataset/detail?id=f0497727-b2cd-46fa-87c8-c6af6bb9eada",
+    "source_file": "臺北小巨蛋場地租用資訊_202604.csv"
+  },
+  {
+    "type": "場地租用",
+    "company": "上引娛樂股份有限公司",
+    "start": "20260426",
+    "end": "20260427",
+    "event": "2026芳心為愛慈善公益演唱會",
+    "space": "主場館",
+    "source_url": "https://data.taipei/dataset/detail?id=f0497727-b2cd-46fa-87c8-c6af6bb9eada",
+    "source_file": "臺北小巨蛋場地租用資訊_202604.csv"
+  },
+  {
+    "type": "場地租用",
+    "company": "松山慈惠堂",
+    "start": "20260428",
+    "end": "20260430",
+    "event": "2026臺北母娘文化季-弘揚母愛音樂會",
+    "space": "主場館",
+    "source_url": "https://data.taipei/dataset/detail?id=f0497727-b2cd-46fa-87c8-c6af6bb9eada",
+    "source_file": "臺北小巨蛋場地租用資訊_202604.csv"
+  },
+  {
+    "type": "場地租用",
+    "company": "松山慈惠堂",
+    "start": "20260501",
+    "end": "20260504",
+    "event": "2026臺北母娘文化季-弘揚母愛音樂會",
+    "space": "主場館",
+    "source_url": "https://data.taipei/dataset/detail?id=f0497727-b2cd-46fa-87c8-c6af6bb9eada",
+    "source_file": "臺北小巨蛋場地租用資訊_202605.csv"
+  },
+  {
+    "type": "場地租用",
     "company": "理想國演藝股份有限公司",
-    "start": "20260924",
-    "end": "20260926",
-    "event": "LANY 2026 台北演唱會",
-    "space": "B1-1號店舖"
+    "start": "20260505",
+    "end": "20260510",
+    "event": "EXO 2026 台北演唱會",
+    "space": "主場館",
+    "source_url": "https://data.taipei/dataset/detail?id=f0497727-b2cd-46fa-87c8-c6af6bb9eada",
+    "source_file": "臺北小巨蛋場地租用資訊_202605.csv"
   },
   {
     "type": "廣場",
@@ -133,7 +1005,29 @@
     "start": "20260509",
     "end": "20260510",
     "event": "EXO 2026 台北演唱會",
-    "space": "北廣場部分租用帳蓬"
+    "space": "北廣場部分租用帳蓬",
+    "source_url": "https://data.taipei/dataset/detail?id=bcf11ef9-9855-4ee3-8750-ca3df5aaf6c4",
+    "source_file": "臺北小巨蛋廣場租用資訊_202605.csv"
+  },
+  {
+    "type": "場地租用",
+    "company": "華研國際音樂股份有限公司",
+    "start": "20260511",
+    "end": "20260517",
+    "event": "動力火車 2026 世界巡迴演唱 台北首唱場",
+    "space": "主場館",
+    "source_url": "https://data.taipei/dataset/detail?id=f0497727-b2cd-46fa-87c8-c6af6bb9eada",
+    "source_file": "臺北小巨蛋場地租用資訊_202605.csv"
+  },
+  {
+    "type": "主場館活動使用空間",
+    "company": "華研國際音樂股份有限公司",
+    "start": "20260513",
+    "end": "20260517",
+    "event": "動力火車 2026 世界巡迴演唱 台北首唱場",
+    "space": "B1-1號店舖",
+    "source_url": "https://data.taipei/dataset/detail?id=f73cbd3e-c8a3-4cbc-8cdd-f62d95e5ac9d",
+    "source_file": "臺北小巨蛋主場館活動使用空間租用資訊_202605.csv"
   },
   {
     "type": "廣場",
@@ -141,7 +1035,29 @@
     "start": "20260514",
     "end": "20260517",
     "event": "動力火車 2026 世界巡迴演唱 台北首唱場",
-    "space": "北廣場部分租用帳蓬"
+    "space": "北廣場部分租用帳蓬",
+    "source_url": "https://data.taipei/dataset/detail?id=bcf11ef9-9855-4ee3-8750-ca3df5aaf6c4",
+    "source_file": "臺北小巨蛋廣場租用資訊_202605.csv"
+  },
+  {
+    "type": "場地租用",
+    "company": "台北之音廣播股份有限公司",
+    "start": "20260518",
+    "end": "20260524",
+    "event": "2026 HITO流行音樂獎頒獎典禮",
+    "space": "主場館",
+    "source_url": "https://data.taipei/dataset/detail?id=f0497727-b2cd-46fa-87c8-c6af6bb9eada",
+    "source_file": "臺北小巨蛋場地租用資訊_202605.csv"
+  },
+  {
+    "type": "主場館活動使用空間",
+    "company": "台北之音廣播股份有限公司",
+    "start": "20260523",
+    "end": "20260523",
+    "event": "2026 HITO流行音樂獎頒獎典禮",
+    "space": "B1-1號店舖",
+    "source_url": "https://data.taipei/dataset/detail?id=f73cbd3e-c8a3-4cbc-8cdd-f62d95e5ac9d",
+    "source_file": "臺北小巨蛋主場館活動使用空間租用資訊_202605.csv"
   },
   {
     "type": "廣場",
@@ -149,7 +1065,29 @@
     "start": "20260523",
     "end": "20260523",
     "event": "2026 HITO流行音樂獎頒獎典禮",
-    "space": "北廣場部分租用帳蓬"
+    "space": "北廣場部分租用帳蓬",
+    "source_url": "https://data.taipei/dataset/detail?id=bcf11ef9-9855-4ee3-8750-ca3df5aaf6c4",
+    "source_file": "臺北小巨蛋廣場租用資訊_202605.csv"
+  },
+  {
+    "type": "場地租用",
+    "company": "超級圓頂事業股份有限公司",
+    "start": "20260525",
+    "end": "20260531",
+    "event": "2026年台北小巨蛋韋禮安世界巡迴演唱會",
+    "space": "主場館",
+    "source_url": "https://data.taipei/dataset/detail?id=f0497727-b2cd-46fa-87c8-c6af6bb9eada",
+    "source_file": "臺北小巨蛋場地租用資訊_202605.csv"
+  },
+  {
+    "type": "主場館活動使用空間",
+    "company": "超級圓頂事業股份有限公司",
+    "start": "20260528",
+    "end": "20260531",
+    "event": "2026年台北小巨蛋韋禮安世界巡迴演唱會",
+    "space": "2樓6號店舖",
+    "source_url": "https://data.taipei/dataset/detail?id=f73cbd3e-c8a3-4cbc-8cdd-f62d95e5ac9d",
+    "source_file": "臺北小巨蛋主場館活動使用空間租用資訊_202605.csv"
   },
   {
     "type": "廣場",
@@ -157,7 +1095,19 @@
     "start": "20260530",
     "end": "20260531",
     "event": "2026年台北小巨蛋韋禮安世界巡迴演唱會",
-    "space": "北廣場部分租用帳蓬"
+    "space": "北廣場部分租用帳蓬",
+    "source_url": "https://data.taipei/dataset/detail?id=bcf11ef9-9855-4ee3-8750-ca3df5aaf6c4",
+    "source_file": "臺北小巨蛋廣場租用資訊_202605.csv"
+  },
+  {
+    "type": "場地租用",
+    "company": "英屬維京群島商大國文化有限公司台灣分公司",
+    "start": "20260601",
+    "end": "20260607",
+    "event": "King Gnu Live in Taipei 2026",
+    "space": "主場館",
+    "source_url": "https://data.taipei/dataset/detail?id=f0497727-b2cd-46fa-87c8-c6af6bb9eada",
+    "source_file": "臺北小巨蛋場地租用資訊_202606.csv"
   },
   {
     "type": "廣場",
@@ -165,7 +1115,9 @@
     "start": "20260605",
     "end": "20260607",
     "event": "King Gnu Live in Taipei 2026",
-    "space": "北廣場全區"
+    "space": "北廣場全區",
+    "source_url": "https://data.taipei/dataset/detail?id=bcf11ef9-9855-4ee3-8750-ca3df5aaf6c4",
+    "source_file": "臺北小巨蛋廣場租用資訊_202606.csv"
   },
   {
     "type": "廣場",
@@ -173,7 +1125,29 @@
     "start": "20260605",
     "end": "20260607",
     "event": "King Gnu Live in Taipei 2026",
-    "space": "南廣場全區"
+    "space": "南廣場全區",
+    "source_url": "https://data.taipei/dataset/detail?id=bcf11ef9-9855-4ee3-8750-ca3df5aaf6c4",
+    "source_file": "臺北小巨蛋廣場租用資訊_202606.csv"
+  },
+  {
+    "type": "主場館活動使用空間",
+    "company": "英屬維京群島商大國文化有限公司台灣分公司",
+    "start": "20260606",
+    "end": "20260607",
+    "event": "King Gnu Live in Taipei 2026",
+    "space": "2樓8號店舖",
+    "source_url": "https://data.taipei/dataset/detail?id=f73cbd3e-c8a3-4cbc-8cdd-f62d95e5ac9d",
+    "source_file": "臺北小巨蛋主場館活動使用空間租用資訊_202606.csv"
+  },
+  {
+    "type": "場地租用",
+    "company": "願境網訊股份有限公司",
+    "start": "20260608",
+    "end": "20260614",
+    "event": "2026 第21屆KKBOX 風雲榜",
+    "space": "主場館",
+    "source_url": "https://data.taipei/dataset/detail?id=f0497727-b2cd-46fa-87c8-c6af6bb9eada",
+    "source_file": "臺北小巨蛋場地租用資訊_202606.csv"
   },
   {
     "type": "廣場",
@@ -181,7 +1155,29 @@
     "start": "20260613",
     "end": "20260613",
     "event": "2026 第21屆KKBOX 風雲榜",
-    "space": "北廣場全區"
+    "space": "北廣場全區",
+    "source_url": "https://data.taipei/dataset/detail?id=bcf11ef9-9855-4ee3-8750-ca3df5aaf6c4",
+    "source_file": "臺北小巨蛋廣場租用資訊_202606.csv"
+  },
+  {
+    "type": "場地租用",
+    "company": "好玩國際文化股份有限公司",
+    "start": "20260615",
+    "end": "20260620",
+    "event": "LiSA Live in Taipei 2026",
+    "space": "主場館",
+    "source_url": "https://data.taipei/dataset/detail?id=f0497727-b2cd-46fa-87c8-c6af6bb9eada",
+    "source_file": "臺北小巨蛋場地租用資訊_202606.csv"
+  },
+  {
+    "type": "主場館活動使用空間",
+    "company": "好玩國際文化股份有限公司",
+    "start": "20260618",
+    "end": "20260620",
+    "event": "LiSA Live in Taipei 2026",
+    "space": "2樓8號店舖",
+    "source_url": "https://data.taipei/dataset/detail?id=f73cbd3e-c8a3-4cbc-8cdd-f62d95e5ac9d",
+    "source_file": "臺北小巨蛋主場館活動使用空間租用資訊_202606.csv"
   },
   {
     "type": "廣場",
@@ -189,7 +1185,9 @@
     "start": "20260618",
     "end": "20260620",
     "event": "LiSA Live in Taipei 2026",
-    "space": "北廣場全區"
+    "space": "北廣場全區",
+    "source_url": "https://data.taipei/dataset/detail?id=bcf11ef9-9855-4ee3-8750-ca3df5aaf6c4",
+    "source_file": "臺北小巨蛋廣場租用資訊_202606.csv"
   },
   {
     "type": "廣場",
@@ -197,7 +1195,19 @@
     "start": "20260618",
     "end": "20260620",
     "event": "LiSA Live in Taipei 2026",
-    "space": "南廣場全區"
+    "space": "南廣場全區",
+    "source_url": "https://data.taipei/dataset/detail?id=bcf11ef9-9855-4ee3-8750-ca3df5aaf6c4",
+    "source_file": "臺北小巨蛋廣場租用資訊_202606.csv"
+  },
+  {
+    "type": "場地租用",
+    "company": "文化部影視及流行音樂產業局",
+    "start": "20260621",
+    "end": "20260628",
+    "event": "第37屆流行音樂金曲獎頒獎典禮",
+    "space": "主場館",
+    "source_url": "https://data.taipei/dataset/detail?id=f0497727-b2cd-46fa-87c8-c6af6bb9eada",
+    "source_file": "臺北小巨蛋場地租用資訊_202606.csv"
   },
   {
     "type": "廣場",
@@ -205,7 +1215,29 @@
     "start": "20260622",
     "end": "20260628",
     "event": "第37屆流行音樂金曲獎頒獎典禮",
-    "space": "南廣場全區"
+    "space": "南廣場全區",
+    "source_url": "https://data.taipei/dataset/detail?id=bcf11ef9-9855-4ee3-8750-ca3df5aaf6c4",
+    "source_file": "臺北小巨蛋廣場租用資訊_202606.csv"
+  },
+  {
+    "type": "主場館活動使用空間",
+    "company": "文化部影視及流行音樂產業局",
+    "start": "20260624",
+    "end": "20260628",
+    "event": "第37屆流行音樂金曲獎頒獎典禮",
+    "space": "B1-100會議室",
+    "source_url": "https://data.taipei/dataset/detail?id=f73cbd3e-c8a3-4cbc-8cdd-f62d95e5ac9d",
+    "source_file": "臺北小巨蛋主場館活動使用空間租用資訊_202606.csv"
+  },
+  {
+    "type": "場地租用",
+    "company": "曦慕有限公司",
+    "start": "20260629",
+    "end": "20260630",
+    "event": "創業優化指南-情緒價值",
+    "space": "主場館",
+    "source_url": "https://data.taipei/dataset/detail?id=f0497727-b2cd-46fa-87c8-c6af6bb9eada",
+    "source_file": "臺北小巨蛋場地租用資訊_202606.csv"
   },
   {
     "type": "廣場",
@@ -213,7 +1245,49 @@
     "start": "20260718",
     "end": "20260719",
     "event": "2026 滅火器樂團Fire EX.台北演唱會",
-    "space": "北廣場全區"
+    "space": "北廣場全區",
+    "source_url": "https://data.taipei/dataset/detail?id=bcf11ef9-9855-4ee3-8750-ca3df5aaf6c4",
+    "source_file": "臺北小巨蛋廣場租用資訊_202607.csv"
+  },
+  {
+    "type": "主場館活動使用空間",
+    "company": "中華民國羽球協會",
+    "start": "20260724",
+    "end": "20260725",
+    "event": "2026台北羽球公開賽",
+    "space": "B1-1號店舖",
+    "source_url": "https://data.taipei/dataset/detail?id=f73cbd3e-c8a3-4cbc-8cdd-f62d95e5ac9d",
+    "source_file": "臺北小巨蛋主場館活動使用空間租用資訊_202607.csv"
+  },
+  {
+    "type": "主場館活動使用空間",
+    "company": "中華民國羽球協會",
+    "start": "20260725",
+    "end": "20260726",
+    "event": "2026台北羽球公開賽",
+    "space": "1樓北大廳店舖",
+    "source_url": "https://data.taipei/dataset/detail?id=f73cbd3e-c8a3-4cbc-8cdd-f62d95e5ac9d",
+    "source_file": "臺北小巨蛋主場館活動使用空間租用資訊_202607.csv"
+  },
+  {
+    "type": "主場館活動使用空間",
+    "company": "中華民國羽球協會",
+    "start": "20260725",
+    "end": "20260731",
+    "event": "2026台北羽球公開賽",
+    "space": "2樓2號店舖",
+    "source_url": "https://data.taipei/dataset/detail?id=f73cbd3e-c8a3-4cbc-8cdd-f62d95e5ac9d",
+    "source_file": "臺北小巨蛋主場館活動使用空間租用資訊_202607.csv"
+  },
+  {
+    "type": "主場館活動使用空間",
+    "company": "中華民國羽球協會",
+    "start": "20260801",
+    "end": "20260802",
+    "event": "2026台北羽球公開賽",
+    "space": "2樓2號店舖",
+    "source_url": "https://data.taipei/dataset/detail?id=f73cbd3e-c8a3-4cbc-8cdd-f62d95e5ac9d",
+    "source_file": "臺北小巨蛋主場館活動使用空間租用資訊_202608.csv"
   },
   {
     "type": "廣場",
@@ -221,7 +1295,9 @@
     "start": "20260808",
     "end": "20260808",
     "event": "2026許富凱 台北小巨蛋演唱會",
-    "space": "北廣場部分租用"
+    "space": "北廣場部分租用",
+    "source_url": "https://data.taipei/dataset/detail?id=bcf11ef9-9855-4ee3-8750-ca3df5aaf6c4",
+    "source_file": "臺北小巨蛋廣場租用資訊_202608.csv"
   },
   {
     "type": "廣場",
@@ -229,7 +1305,29 @@
     "start": "20260815",
     "end": "20260816",
     "event": "八三夭沒有翅膀的人世界巡迴演唱會",
-    "space": "北廣場全區租用"
+    "space": "北廣場全區租用",
+    "source_url": "https://data.taipei/dataset/detail?id=bcf11ef9-9855-4ee3-8750-ca3df5aaf6c4",
+    "source_file": "臺北小巨蛋廣場租用資訊_202608.csv"
+  },
+  {
+    "type": "主場館活動使用空間",
+    "company": "大鴻藝術股份有限公司",
+    "start": "20260821",
+    "end": "20260823",
+    "event": "back number ASlA TOUR 2026 in Taipei",
+    "space": "2樓8號店舖",
+    "source_url": "https://data.taipei/dataset/detail?id=f73cbd3e-c8a3-4cbc-8cdd-f62d95e5ac9d",
+    "source_file": "臺北小巨蛋主場館活動使用空間租用資訊_202608.csv"
+  },
+  {
+    "type": "主場館活動使用空間",
+    "company": "大鴻藝術股份有限公司",
+    "start": "20260821",
+    "end": "20260823",
+    "event": "back number ASlA TOUR 2026 in Taipei",
+    "space": "B1-1號店舖",
+    "source_url": "https://data.taipei/dataset/detail?id=f73cbd3e-c8a3-4cbc-8cdd-f62d95e5ac9d",
+    "source_file": "臺北小巨蛋主場館活動使用空間租用資訊_202608.csv"
   },
   {
     "type": "廣場",
@@ -237,7 +1335,9 @@
     "start": "20260821",
     "end": "20260823",
     "event": "back number ASlA TOUR 2026 in Taipei",
-    "space": "北廣場全區租用"
+    "space": "北廣場全區租用",
+    "source_url": "https://data.taipei/dataset/detail?id=bcf11ef9-9855-4ee3-8750-ca3df5aaf6c4",
+    "source_file": "臺北小巨蛋廣場租用資訊_202608.csv"
   },
   {
     "type": "廣場",
@@ -245,7 +1345,19 @@
     "start": "20260821",
     "end": "20260823",
     "event": "back number ASlA TOUR 2026 in Taipei",
-    "space": "南廣場部分租用"
+    "space": "南廣場部分租用",
+    "source_url": "https://data.taipei/dataset/detail?id=bcf11ef9-9855-4ee3-8750-ca3df5aaf6c4",
+    "source_file": "臺北小巨蛋廣場租用資訊_202608.csv"
+  },
+  {
+    "type": "主場館活動使用空間",
+    "company": "寬宏藝術經紀股份有限公司",
+    "start": "20260828",
+    "end": "20260830",
+    "event": "Official髭男dism 2026台北演唱會",
+    "space": "2樓8號店舖",
+    "source_url": "https://data.taipei/dataset/detail?id=f73cbd3e-c8a3-4cbc-8cdd-f62d95e5ac9d",
+    "source_file": "臺北小巨蛋主場館活動使用空間租用資訊_202608.csv"
   },
   {
     "type": "廣場",
@@ -253,7 +1365,19 @@
     "start": "20260828",
     "end": "20260830",
     "event": "Official髭男dism 2026台北演唱會",
-    "space": "南廣場全區租用"
+    "space": "南廣場全區租用",
+    "source_url": "https://data.taipei/dataset/detail?id=bcf11ef9-9855-4ee3-8750-ca3df5aaf6c4",
+    "source_file": "臺北小巨蛋廣場租用資訊_202608.csv"
+  },
+  {
+    "type": "主場館活動使用空間",
+    "company": "臺北市政府文化局",
+    "start": "20260904",
+    "end": "20260905",
+    "event": "115年第二屆「潮臺北TRENDY TAIPEI-Music X Innovation」小巨蛋演唱會節目遴選計畫",
+    "space": "B1-1號店舖",
+    "source_url": "https://data.taipei/dataset/detail?id=f73cbd3e-c8a3-4cbc-8cdd-f62d95e5ac9d",
+    "source_file": "臺北小巨蛋主場館活動使用空間租用資訊_202609.csv"
   },
   {
     "type": "廣場",
@@ -261,15 +1385,19 @@
     "start": "20260905",
     "end": "20260905",
     "event": "115年第二屆「潮臺北TRENDY TAIPEI-Music X Innovation」小巨蛋演唱會節目遴選計畫",
-    "space": "北廣場部分租用"
+    "space": "北廣場部分租用",
+    "source_url": "https://data.taipei/dataset/detail?id=bcf11ef9-9855-4ee3-8750-ca3df5aaf6c4",
+    "source_file": "臺北小巨蛋廣場租用資訊_202609.csv"
   },
   {
-    "type": "廣場",
-    "company": "華納國際音樂股份有限公司",
-    "start": "20260918",
-    "end": "20260919",
-    "event": "蕭煌奇2026年巡迴演唱會-台北小巨蛋",
-    "space": "北廣場部分租用"
+    "type": "主場館活動使用空間",
+    "company": "理想國演藝股份有限公司",
+    "start": "20260910",
+    "end": "20260913",
+    "event": "IVE 2026 台北演唱會",
+    "space": "B1-1號店舖",
+    "source_url": "https://data.taipei/dataset/detail?id=f73cbd3e-c8a3-4cbc-8cdd-f62d95e5ac9d",
+    "source_file": "臺北小巨蛋主場館活動使用空間租用資訊_202609.csv"
   },
   {
     "type": "廣場",
@@ -277,7 +1405,9 @@
     "start": "20260910",
     "end": "20260910",
     "event": "IVE 2026 台北演唱會",
-    "space": "北廣場部分租用"
+    "space": "北廣場部分租用",
+    "source_url": "https://data.taipei/dataset/detail?id=bcf11ef9-9855-4ee3-8750-ca3df5aaf6c4",
+    "source_file": "臺北小巨蛋廣場租用資訊_202609.csv"
   },
   {
     "type": "廣場",
@@ -285,7 +1415,29 @@
     "start": "20260911",
     "end": "20260913",
     "event": "IVE 2026 台北演唱會",
-    "space": "北廣場全區租用"
+    "space": "北廣場全區租用",
+    "source_url": "https://data.taipei/dataset/detail?id=bcf11ef9-9855-4ee3-8750-ca3df5aaf6c4",
+    "source_file": "臺北小巨蛋廣場租用資訊_202609.csv"
+  },
+  {
+    "type": "廣場",
+    "company": "華納國際音樂股份有限公司",
+    "start": "20260918",
+    "end": "20260919",
+    "event": "蕭煌奇2026年巡迴演唱會-台北小巨蛋",
+    "space": "北廣場部分租用",
+    "source_url": "https://data.taipei/dataset/detail?id=bcf11ef9-9855-4ee3-8750-ca3df5aaf6c4",
+    "source_file": "臺北小巨蛋廣場租用資訊_202609.csv"
+  },
+  {
+    "type": "主場館活動使用空間",
+    "company": "理想國演藝股份有限公司",
+    "start": "20260924",
+    "end": "20260926",
+    "event": "LANY 2026 台北演唱會",
+    "space": "B1-1號店舖",
+    "source_url": "https://data.taipei/dataset/detail?id=f73cbd3e-c8a3-4cbc-8cdd-f62d95e5ac9d",
+    "source_file": "臺北小巨蛋主場館活動使用空間租用資訊_202609.csv"
   },
   {
     "type": "廣場",
@@ -293,6 +1445,8 @@
     "start": "20260926",
     "end": "20260926",
     "event": "LANY 2026 台北演唱會",
-    "space": "北廣場部分租用"
+    "space": "北廣場部分租用",
+    "source_url": "https://data.taipei/dataset/detail?id=bcf11ef9-9855-4ee3-8750-ca3df5aaf6c4",
+    "source_file": "臺北小巨蛋廣場租用資訊_202609.csv"
   }
 ]

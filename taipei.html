@@ -2,7 +2,7 @@
 <html lang="zh-Hant">
 <head>
 <meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>台北市演唱會場館借用狀況</title>
+<title>台北市音樂展演場館活動地圖</title>
 <link rel="stylesheet" href="https://api.mapbox.com/mapbox-gl-js/v3.10.0/mapbox-gl.css">
 <script src="https://api.mapbox.com/mapbox-gl-js/v3.10.0/mapbox-gl.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/echarts@5/dist/echarts.min.js"></script>
@@ -12,17 +12,32 @@
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<header class="topbar"><div><span class="eyebrow">TAIPEI CONCERT VENUE / DASHBOARD</span><h1>台北市演唱會場館借用狀況</h1></div><div class="topnote">3D 城市地圖 · 2026 年 5–9 月空間租用紀錄</div></header>
+<header class="topbar"><div><span class="eyebrow">TAIPEI CONCERT VENUE / DASHBOARD</span><h1>台北市音樂展演場館活動地圖</h1></div><div class="topnote">3D 城市地圖 · 11 個場館 · 2025 年 10 月－2026 年 10 月</div></header>
 <main class="dashboard">
 <section class="map-panel" aria-label="台北市場館地圖"><div id="map"></div><div class="map-title">場館分布 <span>TAIPEI MAP</span></div><div class="map-actions"><button id="overviewBtn" type="button">◎ 台北市全景</button><button id="arenaBtn" type="button">⌖ 台北小巨蛋</button></div><div class="map-foot">點擊地圖標記查看場館 · 放大至 15 級以上顯示 3D 建築</div></section>
 <section class="right-grid">
-<section class="tile calendar-tile"><div class="tile-heading"><span class="mini-label">CALENDAR</span><h2>租借日曆</h2></div><div class="calendar-toolbar"><button id="prevMonth" aria-label="上個月">‹</button><strong id="calendarMonth"></strong><button id="nextMonth" aria-label="下個月">›</button></div><div id="calendar" class="calendar"></div><p id="calendarHint" class="hint">點選有紀錄的日期查看租用項目</p></section>
-<section class="tile monthly-tile"><div class="tile-heading"><span class="mini-label">MONTHLY RECORDS</span><h2>每月租用紀錄數</h2></div><div id="monthly" class="chart"></div></section>
+<section class="tile calendar-tile"><div class="tile-heading"><span class="mini-label">CALENDAR</span><h2>場館日曆</h2></div><div class="calendar-toolbar"><button id="prevMonth" aria-label="上個月">‹</button><strong id="calendarMonth"></strong><button id="nextMonth" aria-label="下個月">›</button></div><div id="calendar" class="calendar"></div><p id="calendarHint" class="hint">點選有紀錄的日期查看租用項目</p></section>
+<section class="tile monthly-tile"><div class="tile-heading"><span class="mini-label">MONTHLY RECORDS</span><h2>每月紀錄數</h2></div><div id="monthly" class="chart"></div></section>
 <section class="tile venue-tile"><div class="tile-heading"><span class="mini-label">VENUE INFORMATION</span><h2 id="venueTitle">台北小巨蛋</h2></div><div id="venueInfo" class="venue-info"></div><div class="records-heading"><strong id="recordHeading">租用紀錄</strong><select id="monthFilter" aria-label="月份篩選"><option value="all">全部月份</option></select></div><div id="recordList" class="record-list" aria-live="polite"></div></section>
-<section class="tile types-tile"><div class="tile-heading"><span class="mini-label">SPACE CATEGORY</span><h2>空間租用類型</h2></div><div id="types" class="chart"></div></section>
-<section class="tile stats-tile"><div class="tile-heading"><span class="mini-label">RECORD SUMMARY</span><h2>租用紀錄統計</h2></div><div id="statsChart" class="chart" role="img" aria-label="不同活動數與租用紀錄數比較"></div></section>
+<section class="tile types-tile"><div class="tile-heading"><span class="mini-label">WEEKDAY DISTRIBUTION</span><h2>星期活動分布</h2></div><div class="weekday-chart-wrap">
+  <div id="types" class="chart"></div>
+  <div class="weekday-legend" aria-label="星期活動分布圖例">
+    <div class="weekday-legend-row weekend">
+      <span class="weekday-legend-item"><i style="background:#FFB64D"></i>週六</span>
+      <span class="weekday-legend-item"><i style="background:#FF9E49"></i>週日</span>
+    </div>
+    <div class="weekday-legend-row">
+      <span class="weekday-legend-item"><i style="background:#237E9C"></i>週一</span>
+      <span class="weekday-legend-item"><i style="background:#2A86A4"></i>週二</span>
+      <span class="weekday-legend-item"><i style="background:#3190AE"></i>週三</span>
+      <span class="weekday-legend-item"><i style="background:#389AB8"></i>週四</span>
+      <span class="weekday-legend-item"><i style="background:#3FA4C1"></i>週五</span>
+    </div>
+  </div>
+</div></section>
+<section class="tile stats-tile"><div class="tile-heading"><span class="mini-label">MONTHLY UNIQUE EVENTS</span><h2>每月不同活動數</h2></div><div id="statsChart" class="chart" role="img" aria-label="2025 年 10 月至 2026 年 10 月每月不重複活動數折線圖"></div></section>
 </section></main>
-<footer>資料來源：台北市各場館 CSV（2026 年 5–9 月）。紀錄為主場館活動使用空間及廣場租用，非整座場館可借用檔期；其他場館尚未匯入租用資料。</footer>
+<footer>資料來源：<a href="https://data.taipei/dataset/detail?id=f73cbd3e-c8a3-4cbc-8cdd-f62d95e5ac9d" target="_blank" rel="noopener noreferrer">小巨蛋主場館活動使用空間</a>、<a href="https://data.taipei/dataset/detail?id=bcf11ef9-9855-4ee3-8750-ca3df5aaf6c4" target="_blank" rel="noopener noreferrer">小巨蛋廣場</a>、<a href="https://data.taipei/dataset/detail?id=f0497727-b2cd-46fa-87c8-c6af6bb9eada" target="_blank" rel="noopener noreferrer">小巨蛋場地租用資訊</a>、<a href="https://www.tmc.taipei/tw/blog/show?activity_category=events" target="_blank" rel="noopener noreferrer">臺北流行音樂中心</a>、<a href="https://www.legacy.com.tw/page/programlist/" target="_blank" rel="noopener noreferrer">Legacy</a>、<a href="https://www.taipeidome.com.tw/Web/dome/" target="_blank" rel="noopener noreferrer">臺北大巨蛋</a>、<a href="https://www.witchhouse.org/performance" target="_blank" rel="noopener noreferrer">女巫店</a>、<a href="https://thewalllivehouse.kktix.cc/" target="_blank" rel="noopener noreferrer">The Wall</a>、<a href="https://riversidelivehouse.kktix.cc/" target="_blank" rel="noopener noreferrer">河岸留言</a>、<a href="https://pipelivemusic.com/2026/" target="_blank" rel="noopener noreferrer">PIPE</a> 及 <a href="https://www.ticc.com.tw/wSite/sp?BaseDSD=7&amp;CtUnit=152&amp;ctNode=318&amp;mp=1&amp;s_showdate=2026-05-01&amp;xdUrl=%2FwSite%2Fap%2Flp_Activity_2.jsp" target="_blank" rel="noopener noreferrer">TICC 官方活動行事曆</a>等活動來源（2025 年 10 月－2026 年 10 月 27 日）。場館為部分收錄，未列出不代表沒有活動；活動日期不等於租借日期。</footer>
 <script src="app.js"></script>
 <script src="taipei_mask.js"></script>
 </body></html>
